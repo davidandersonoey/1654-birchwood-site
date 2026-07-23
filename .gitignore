@@ -1,0 +1,6 @@
+*.bak*
+.DS_Store
+/node_modules
+
+# Personal working docs — not part of the deployed site
+*-MLS-DESCRIPTION.md
