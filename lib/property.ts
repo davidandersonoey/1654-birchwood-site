@@ -40,7 +40,7 @@ export const PROPERTY = {
   longitude: -79.615,
 
   // ---- core facts ----
-  bedrooms: "4 + 1",          // 4 above grade + 1 lower
+  bedrooms: "5 + 1",          // 5 above grade + 1 lower
   bathrooms: "5 + 1 Half",
   livingArea: "6,600+ sq ft", // finished, across three levels
   lotDimensions: "88.3 ft × 118.7 ft",
@@ -49,7 +49,7 @@ export const PROPERTY = {
   price: "$4,598,000",
 
   // numeric values for JSON-LD schema
-  bedroomsNumeric: 5,
+  bedroomsNumeric: 6,
   bathroomsNumeric: 5,        // 5 full + 1 half — schema integer
   livingAreaSqftNumeric: 6600,
   priceNumeric: 4598000,
