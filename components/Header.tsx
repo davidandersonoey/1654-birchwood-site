@@ -20,10 +20,13 @@ const NAV_BRANDED: NavItem[] = [
   { href: "/#floorplans", key: "nav.floorplans" },
   { href: "/#neighbourhood", key: "nav.county" },
   { href: "/#gallery", key: "nav.gallery" },
+  { href: "https://1654birchwooddrive.webflow.io/construction-highlights", key: "nav.construction", external: true },
 ];
 
 // Unbranded nav keeps internal navigation inside /unbranded so the
 // MLS virtual-tour visitor never lands on the branded site by accident.
+// Construction Highlights link intentionally omitted from unbranded
+// (external URL that carries no agent branding but is off-brand for MLS).
 const NAV_UNBRANDED: NavItem[] = [
   { href: "/unbranded#property", key: "nav.property" },
   { href: "/unbranded#floorplans", key: "nav.floorplans" },

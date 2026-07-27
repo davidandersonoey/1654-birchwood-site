@@ -208,10 +208,12 @@ export default function Home() {
               <dt>Listing Price</dt>
               <dd className="emphasis">{PROPERTY.price}</dd>
             </div>
-            <div className="fact">
-              <dt>MLS®</dt>
-              <dd>{PROPERTY.mlsNumber}</dd>
-            </div>
+            {PROPERTY.mlsNumber ? (
+              <div className="fact">
+                <dt>MLS®</dt>
+                <dd>{PROPERTY.mlsNumber}</dd>
+              </div>
+            ) : null}
             <div className="fact">
               <dt>Bedrooms</dt>
               <dd>{PROPERTY.bedrooms}</dd>
