@@ -20,7 +20,6 @@ const NAV_BRANDED: NavItem[] = [
   { href: "/#floorplans", key: "nav.floorplans" },
   { href: "/#neighbourhood", key: "nav.county" },
   { href: "/#gallery", key: "nav.gallery" },
-  { href: "/brochure", key: "nav.brochure" },
 ];
 
 // Unbranded nav keeps internal navigation inside /unbranded so the

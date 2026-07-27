@@ -122,11 +122,6 @@ export default function BrochurePage() {
               design, technology, and tranquility converge to create a sanctuary
               for modern living.
             </p>
-            <p className="brochure-intro-url">
-              <a href={SITE_URL} target="_blank" rel="noopener noreferrer">
-                www.UberHomes.com
-              </a>
-            </p>
           </article>
         </div>
       </section>
@@ -243,9 +238,6 @@ export default function BrochurePage() {
       >
         <div className="brochure-close-inner">
           <div className="brochure-close-agent">
-            <p className="brochure-close-url">
-              <a href={SITE_URL}>www.UberHomes.com</a>
-            </p>
             <h2 className="brochure-close-name">{PROPERTY.agent.name}</h2>
             <p className="brochure-close-title">{PROPERTY.agent.title}</p>
             <p className="brochure-close-brokerage">
