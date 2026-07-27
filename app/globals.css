@@ -1186,19 +1186,21 @@ p, .chapter-statement, .plan-visit-body, .county-overview p,
   background: transparent;     /* no cream peek-through behind the image */
   overflow: visible;
 }
-/* Higher specificity than `.gallery .item img` so the rail's fixed
-   height & cover-crop actually wins regardless of source order. */
+/* Higher specificity than `.gallery .item img` so the rail's aspect
+   ratio wins regardless of source order. Matches the Residence tiles
+   (aspect-ratio: 3/2) so the gallery photos show at the same scale
+   and shape as the room-card imagery. */
 .gallery.gallery--rail .item img {
   width: 100%;
-  height: clamp(220px, 32vh, 360px);
+  aspect-ratio: 3 / 2;
+  height: auto;
   object-fit: cover;
-  object-position: center 45%;
+  object-position: center center;
   display: block;
   border-radius: 2px;
 }
 @media (max-width: 640px) {
   .gallery--rail .item { flex: 0 0 82vw; }
-  .gallery.gallery--rail .item img { height: 240px; }
 }
 
 /* -------------------------------------------------------------------------
