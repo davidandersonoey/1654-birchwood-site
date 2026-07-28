@@ -2643,3 +2643,83 @@ p, .chapter-statement, .plan-visit-body, .county-overview p,
   border-bottom: 1px solid rgba(247, 240, 227, 0.4);
   padding-bottom: 2px;
 }
+
+
+/* =========================================================================
+   Pool Sized Lot — proposed pool concept section (between Neighbourhood
+   and Gallery). Editorial single-image chapter, same palette as the rest.
+   ========================================================================= */
+.pool-section {
+  background: var(--cream);
+  padding: clamp(80px, 12vh, 140px) 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.pool-head {
+  max-width: 780px;
+  margin: 0 auto clamp(40px, 6vh, 72px);
+  padding: 0 clamp(24px, 4vw, 56px);
+  text-align: center;
+}
+.pool-head .eyebrow {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  margin: 0 0 14px;
+}
+.pool-headline {
+  font-family: var(--serif);
+  font-size: clamp(36px, 5vw, 62px);
+  font-weight: 400;
+  line-height: 1.05;
+  color: var(--ink);
+  margin: 0 0 18px;
+  letter-spacing: -0.005em;
+}
+.pool-headline em {
+  font-style: italic;
+  color: var(--olive);
+}
+.pool-subhead {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.pool-figure {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 56px);
+}
+.pool-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #fff;
+  border: 1px solid var(--cream-deep);
+  padding: clamp(12px, 2vw, 24px);
+  box-sizing: border-box;
+}
+.pool-figure figcaption {
+  margin-top: 16px;
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Two-up grid for the pool concept renderings */
+.pool-grid {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 56px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: clamp(24px, 3vw, 40px);
+}
+.pool-grid .pool-figure { margin: 0; padding: 0; max-width: 100%; }

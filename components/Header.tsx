@@ -19,6 +19,7 @@ const NAV_BRANDED: NavItem[] = [
   { href: "/#property", key: "nav.property" },
   { href: "/#floorplans", key: "nav.floorplans" },
   { href: "/#neighbourhood", key: "nav.county" },
+  { href: "/#pool", key: "nav.pool" },
   { href: "/#gallery", key: "nav.gallery" },
 ];
 

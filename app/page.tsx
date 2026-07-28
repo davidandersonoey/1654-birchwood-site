@@ -526,6 +526,46 @@ export default function Home() {
       </section>
 
       {/* ===================================================================
+          POOL SIZED LOT — proposed pool concept site plan
+      =================================================================== */}
+      <section className="pool-section" id="pool">
+        <div className="container">
+          <div className="pool-head reveal">
+            <p className="eyebrow">Chapter</p>
+            <h2 className="pool-headline">
+              A <em>pool-sized lot</em>.
+            </h2>
+            <p className="pool-subhead">
+              An 88 ft × 119 ft lot with real room behind the house — engineered
+              plans on record for a 4.5 m × 9.0 m in-ground pool, a 2.0 m × 2.0 m
+              hot tub, and a landscaped sitting area, all within the existing
+              rear setback.
+            </p>
+          </div>
+          <div className="pool-grid reveal">
+            <figure className="pool-figure">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/gallery/birchwood/pool-concept-siteplan.jpg"
+                alt="1654 Birchwood Drive — proposed pool concept, layout A"
+                loading="lazy"
+              />
+              <figcaption>Layout A · pool with dedicated sitting area</figcaption>
+            </figure>
+            <figure className="pool-figure">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/gallery/birchwood/pool-concept-siteplan-2.jpg"
+                alt="1654 Birchwood Drive — proposed pool concept, layout B"
+                loading="lazy"
+              />
+              <figcaption>Layout B · horizontal pool orientation</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      {/* ===================================================================
           SECTION BREAK — before the Gallery, matching the Luminate rhythm
       =================================================================== */}
       <SectionBreak
