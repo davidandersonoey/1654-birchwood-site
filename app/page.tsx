@@ -536,10 +536,10 @@ export default function Home() {
               A <em>pool-sized lot</em>.
             </h2>
             <p className="pool-subhead">
-              An 88 ft × 119 ft lot with real room behind the house — engineered
-              plans on record for a 4.5 m × 9.0 m in-ground pool, a 2.0 m × 2.0 m
-              hot tub, and a landscaped sitting area, all within the existing
-              rear setback.
+              Pool-sized lot on 88 ft (with an additional 10 foot or so side
+              yard from the City) × 119 ft lot. Consider these drawings for
+              pool location and options. These are not official approved
+              drawings but rather guidelines for designing your dream oasis.
             </p>
           </div>
           <div className="pool-grid reveal">
@@ -550,7 +550,7 @@ export default function Home() {
                 alt="1654 Birchwood Drive — proposed pool concept, layout A"
                 loading="lazy"
               />
-              <figcaption>Layout A · pool with dedicated sitting area</figcaption>
+              <figcaption>LAYOUT A · pool with dedicated sitting area</figcaption>
             </figure>
             <figure className="pool-figure">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -559,7 +559,7 @@ export default function Home() {
                 alt="1654 Birchwood Drive — proposed pool concept, layout B"
                 loading="lazy"
               />
-              <figcaption>Layout B · horizontal pool orientation</figcaption>
+              <figcaption>LAYOUT B · horizontal pool orientation</figcaption>
             </figure>
           </div>
         </div>
