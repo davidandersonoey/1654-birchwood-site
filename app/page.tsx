@@ -550,7 +550,7 @@ export default function Home() {
                 alt="1654 Birchwood Drive — proposed pool concept, layout A"
                 loading="lazy"
               />
-              <figcaption>LAYOUT A · pool with dedicated sitting area</figcaption>
+              <figcaption>Layout A</figcaption>
             </figure>
             <figure className="pool-figure">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -559,7 +559,7 @@ export default function Home() {
                 alt="1654 Birchwood Drive — proposed pool concept, layout B"
                 loading="lazy"
               />
-              <figcaption>LAYOUT B · horizontal pool orientation</figcaption>
+              <figcaption>Layout B</figcaption>
             </figure>
           </div>
         </div>
