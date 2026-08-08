@@ -117,7 +117,7 @@ export const FLOOR_PLANS: FloorPlan[] = [
     src: "/floorplans/second-floor.jpg",
     label: "Second Floor",
     caption:
-      "Primary suite with ensuite and rear deck, three further bedrooms, laundry room, and elevator access to every level.",
+      "Primary suite with ensuite and rear deck, four further bedrooms, laundry room, and elevator access to every level.",
   },
   {
     src: "/floorplans/basement.jpg",

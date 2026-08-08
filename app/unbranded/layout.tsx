@@ -8,12 +8,12 @@ const SITE_URL = "https://www.1654birchwood.com";
 export const metadata: Metadata = {
   title: "1654 Birchwood Drive — A contemporary zen residence in Lorne Park, Mississauga",
   description:
-    "A custom 6,600+ sq ft residence in Lorne Park, Mississauga — 4+1 beds, 5+1 baths, soundproof theatre, wine cantina, Control4 throughout.",
+    "A custom 6,600+ sq ft residence in Lorne Park, Mississauga — 5+1 beds, 5+1 baths, soundproof theatre, wine cantina, Control4 throughout.",
   alternates: { canonical: `${SITE_URL}/unbranded` },
   openGraph: {
     title: "1654 Birchwood Drive · Lorne Park, Mississauga",
     description:
-      "A custom 6,600+ sq ft contemporary zen residence in Lorne Park. 4+1 beds, 5+1 baths.",
+      "A custom 6,600+ sq ft contemporary zen residence in Lorne Park. 5+1 beds, 5+1 baths.",
     url: `${SITE_URL}/unbranded`,
     siteName: "1654 Birchwood Drive",
     type: "website",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "1654 Birchwood Drive · Lorne Park, Mississauga",
-    description: "4+1 beds, 5+1 baths, 6,600+ sq ft in Lorne Park.",
+    description: "5+1 beds, 5+1 baths, 6,600+ sq ft in Lorne Park.",
     images: ["/og-image.jpg"],
   },
   // Keep this route out of search engines so it doesn't compete with the
