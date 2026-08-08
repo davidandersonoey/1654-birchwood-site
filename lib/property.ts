@@ -106,7 +106,26 @@ export const PHOTOS: PropertyPhoto[] = [
 //  Floor plans — drop architectural plates into /public/floorplans/ and
 //  list them here. Empty for now; the page shows a "forthcoming" note.
 // -------------------------------------------------------------------------
-export const FLOOR_PLANS: FloorPlan[] = [];
+export const FLOOR_PLANS: FloorPlan[] = [
+  {
+    src: "/floorplans/main-floor.jpg",
+    label: "Main Floor",
+    caption:
+      "Entry hall open to above, living and family rooms, kitchen with pantry and butler's pantry, office, mud room with dog spa, double garage, and rear deck.",
+  },
+  {
+    src: "/floorplans/second-floor.jpg",
+    label: "Second Floor",
+    caption:
+      "Primary suite with ensuite and rear deck, three further bedrooms, laundry room, and elevator access to every level.",
+  },
+  {
+    src: "/floorplans/basement.jpg",
+    label: "Basement",
+    caption:
+      "Recreation room with wet bar and wine display, theatre room, fitness room, bedroom and bathroom, and a walk-out to grade.",
+  },
+];
 
 // -------------------------------------------------------------------------
 //  Property "chapters" — the 17 rooms catalogued in the MLS® room schedule
