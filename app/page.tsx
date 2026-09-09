@@ -135,7 +135,7 @@ export default function Home() {
         number="01"
         kicker="Chapter"
         headline="The Residence."
-        subhead="A contemporary zen residence in Lorne Park — 6,600+ square feet of finished living, crafted over four years."
+        subhead="A contemporary zen residence in Lorne Park — 7,000+ square feet of finished living, crafted over four years."
       >
         <div className="chapter-intro-with-map reveal">
           <div className="chapter-intro-map">
@@ -143,17 +143,18 @@ export default function Home() {
           </div>
           <p className="chapter-statement chapter-statement--inline">
             1654 Birchwood Drive is an exceptional custom residence in the
-            heart of Lorne Park — a masterful fusion of contemporary design and
-            serene zen influence. Over six thousand six hundred square feet of
-            finished living unfolds across three levels: a twenty-foot foyer
-            with its illuminated glass pivot door, a chef&apos;s kitchen with
-            the full Miele suite and a PITT gas counter range, a primary suite
-            with spa-inspired ensuite and three-sided fireplace, and a lower
-            level engineered for entertainment and wellness — a fifteen-seat
-            soundproof theatre, a glass-walled wine cantina, an open-concept
-            gym, and a nanny suite with its own walkout. Modern brick and
-            aluminum cladding, landscaped grounds with irrigation, and Control4
-            smart-home automation throughout.
+            heart of Lorne Park / White Oaks — a masterful fusion of
+            contemporary design and serene zen influence. Over seven thousand
+            square feet of finished living space: a twenty-foot foyer with
+            its illuminated glass pivot entrance door, a chef&apos;s kitchen
+            with a Scandinavian PITT gas counter range and separate prep room,
+            a primary suite with spa-inspired ensuite and three-sided
+            fireplace, and a lower level engineered for entertainment and
+            wellness — a fifteen-seat soundproof theatre room, a glass-walled
+            refrigerated wine cantina, a gym room, and a nanny suite with
+            walkout to a pool-sized fully-fenced private yard. Modern brick
+            and aluminum cladding, landscaped grounds with irrigation, and
+            Control4 smart-home automation throughout.
           </p>
         </div>
 

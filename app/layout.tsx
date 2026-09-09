@@ -28,7 +28,7 @@ const sans = Inter({
 const SITE_URL = "https://www.1654birchwood.com";
 const TITLE = "1654 Birchwood Drive — A Contemporary Zen Residence in Lorne Park, Mississauga";
 const DESCRIPTION =
-  "A custom 6,600+ sq ft residence in Lorne Park — contemporary design with zen influence, crafted over four years. 5+1 beds, 5+1 baths, Miele kitchen, soundproof theatre, wine cantina, Control4 throughout. MLS® " +
+  "A custom 7,000+ sq ft residence in Lorne Park — contemporary design with zen influence, crafted over four years. 5+1 beds, 5+1 baths, Miele kitchen, soundproof theatre, wine cantina, Control4 throughout. MLS® " +
   PROPERTY.mlsNumber + ". Listed by David Anderson Oey, Harvey Kalles Real Estate Ltd.";
 
 export const metadata: Metadata = {
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "1654 Birchwood Drive · Lorne Park, Mississauga",
     description:
-      "A contemporary zen residence in Lorne Park — 5+1 beds, 5+1 baths, 6,600+ sq ft. MLS® " + PROPERTY.mlsNumber + ".",
+      "A contemporary zen residence in Lorne Park — 5+1 beds, 5+1 baths, 7,000+ sq ft. MLS® " + PROPERTY.mlsNumber + ".",
     url: SITE_URL,
     siteName: "1654 Birchwood Drive",
     type: "website",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "1654 Birchwood Drive · Lorne Park, Mississauga",
     description:
-      "A contemporary zen residence in Lorne Park — 5+1 beds, 5+1 baths, 6,600+ sq ft. MLS® " + PROPERTY.mlsNumber + ".",
+      "A contemporary zen residence in Lorne Park — 5+1 beds, 5+1 baths, 7,000+ sq ft. MLS® " + PROPERTY.mlsNumber + ".",
     images: ["/og-image.jpg"],
   },
   verification: {
@@ -75,7 +75,7 @@ const jsonLd = {
   name: "1654 Birchwood Drive",
   url: SITE_URL,
   description:
-    "An exceptional custom residence in Lorne Park, Mississauga — a fusion of contemporary design and serene zen influence. 6,600+ square feet of finished living across three levels, crafted over four years.",
+    "An exceptional custom residence in Lorne Park, Mississauga — a fusion of contemporary design and serene zen influence. 7,000+ square feet of finished living across three levels, crafted over four years.",
   image: [`${SITE_URL}/og-image.jpg`],
   datePosted: "2025-09-29",
   address: {

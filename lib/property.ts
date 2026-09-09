@@ -30,8 +30,8 @@ export const PROPERTY = {
   region: "Mississauga, Ontario",
   postalCode: "L5J 1T6",
   country: "Canada",
-  mlsNumber: "",
-  community: "Lorne Park",
+  mlsNumber: "W13763182",
+  community: "White Oaks / Lorne Park",
   municipality: "Mississauga",
 
   // GPS — re-pin to surveyed coordinates when available.
@@ -42,21 +42,21 @@ export const PROPERTY = {
   // ---- core facts ----
   bedrooms: "5 + 1",          // 5 above grade + 1 lower
   bathrooms: "5 + 1 Half",
-  livingArea: "6,600+ sq ft", // finished, across three levels
+  livingArea: "7,000+ sq ft", // finished, across three levels
   lotDimensions: "88.3 ft × 118.7 ft",
   yearBuilt: "Recently completed", // crafted over four years per listing
   propertyTaxes: "Available upon request",
-  price: "$4,598,000",
+  price: "$4,298,000",
 
   // numeric values for JSON-LD schema
   bedroomsNumeric: 6,
   bathroomsNumeric: 5,        // 5 full + 1 half — schema integer
-  livingAreaSqftNumeric: 6600,
-  priceNumeric: 4598000,
+  livingAreaSqftNumeric: 7000,
+  priceNumeric: 4298000,
 
   // ---- positioning ----
   closingLine:
-    "A contemporary zen residence in the heart of Lorne Park — modern brick and aluminum cladding, custom millwork, Control4 throughout, and over 6,600 square feet of finished living crafted across four years.",
+    "A contemporary zen residence in the heart of Lorne Park — modern brick and aluminum cladding, custom millwork, Control4 throughout, and over 7,000 square feet of finished living crafted across four years.",
 
   // ---- listing agent ----
   agent: {
