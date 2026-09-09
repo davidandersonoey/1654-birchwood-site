@@ -106,4 +106,18 @@ export const GALLERY_IMPORTED: GalleryPhoto[] = [
   { src: "/gallery/birchwood/116-1900x-photo.jpg", alt: "1654 Birchwood Drive", filename: "116-1900x-photo.jpg" },
   { src: "/gallery/birchwood/117-1900x-photo.jpg", alt: "1654 Birchwood Drive", filename: "117-1900x-photo.jpg" },
   { src: "/gallery/birchwood/118-1900x-photo.jpg", alt: "1654 Birchwood Drive", filename: "118-1900x-photo.jpg" },
+  // Completed metal-fenced privacy yard — added Sep 2026.
+  { src: "/gallery/birchwood/yard/IMG_1309.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1309.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1310.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1310.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1313.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1313.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1318.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1318.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1322.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1322.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1323.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1323.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1324.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1324.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1325.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1325.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1326.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1326.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1327.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1327.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1328.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1328.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1329.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1329.jpg" },
+  { src: "/gallery/birchwood/yard/IMG_1331.jpg", alt: "1654 Birchwood Drive — completed metal-fenced privacy yard", filename: "IMG_1331.jpg" },
 ];

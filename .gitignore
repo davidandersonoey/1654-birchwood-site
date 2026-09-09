@@ -7,3 +7,7 @@
 
 # Reference PDFs — too large for GitHub, kept locally only
 1654 Birchwood Drive Presentation Booklet*.pdf
+
+# ImageMagick mogrify backup files (cannot rm from mounted Desktop)
+*.jpg~
+*.png~
