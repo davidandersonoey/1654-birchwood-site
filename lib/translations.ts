@@ -1,18 +1,22 @@
 /**
  * 1654 Birchwood Drive — site translations.
  *
- * Lorne Park sits inside a city with substantial French-speaking presence
- * and the broader Harvey Kalles audience extends into Montreal — so the
- * site supports English + French as anchor languages, with additional
- * translations for an international audience: Italian, Spanish, Arabic,
- * Simplified Chinese, Japanese, and Hebrew. Body copy in /lib/property.ts
- * and /lib/sunnylea.ts is currently English only; localized variants for
- * those long descriptions will come in a follow-up pass. The header, nav,
- * hero, chapter labels, CTAs, and footer are translated here.
+ * Reduced to five languages targeting the buyer segments most active in
+ * the Lorne Park / Greater Toronto luxury market:
+ *   • English (base)
+ *   • Español  — Spanish
+ *   • العربية  — Arabic (right-to-left)
+ *   • 中文     — Simplified Chinese (Mandarin)
+ *   • हिन्दी    — Hindi
+ *
+ * The UI shell (nav, hero, chapter labels, CTAs, footer) is translated
+ * here. Body copy in /lib/property.ts and /lib/lorne-park.ts is being
+ * migrated into translation keys — see the `room.` / `feature.` / `nb.`
+ * namespaces added in Batch 2.
  */
 
-export type Lang = "en" | "fr" | "it" | "es" | "ar" | "zh" | "ja" | "he";
-export const RTL_LANGS: Lang[] = ["ar", "he"];
+export type Lang = "en" | "es" | "ar" | "zh" | "hi";
+export const RTL_LANGS: Lang[] = ["ar"];
 
 type Dict = Record<string, string>;
 
@@ -77,128 +81,6 @@ const en: Dict = {
     "All material on this site is copyrighted. Not to be reproduced without permission.",
 };
 
-const fr: Dict = {
-  // ---- nav ----
-  "nav.property": "La résidence",
-  "nav.floorplans": "Plans d'étage",
-  "nav.county": "Le quartier",
-  "nav.pool": "Terrain avec piscine",
-  "nav.gallery": "Galerie",
-  "nav.designer": "David Small Designs",
-  "nav.contact": "Contact",
-  "nav.menu": "Menu",
-  "nav.close": "Fermer",
-
-  // ---- header utilities ----
-  "btn.privateViewing": "Réserver une visite privée",
-  "btn.beginJourney": "Commencer la visite",
-  "btn.scrollMore": "Faites défiler",
-  "btn.scrollRooms": "Faites défiler les pièces",
-  "btn.visitTheCounty": "Découvrir l'ouest de Toronto →",
-  "btn.readCoverage": "Lire l'article",
-
-  // ---- hero ----
-  "hero.kicker": "Lorne Park · Mississauga",
-  "hero.headline": "A Contemporary Zen Residence in Lorne Park.",
-  "hero.sub": "1654 Birchwood Drive · Lorne Park, Mississauga · Ontario.",
-
-  // ---- chapter labels ----
-  "ch.chapter": "Chapitre",
-  "ch.property.headline": "La résidence.",
-  "ch.floorplans.headline": "Les plans d'étage.",
-  "ch.floorplans.sub": "Un ensemble de plans à l'échelle.",
-  "ch.floorplans.statement":
-    "Cliquez sur un plan pour l'agrandir. Une trousse d'information imprimable est disponible sur demande.",
-
-  // ---- press / neighbourhood ----
-  "press.eyebrow": "Mentions notables",
-  "press.headline": "La presse, sur",
-  "press.headlineEm": "Lorne Park",
-  "videos.eyebrow": "Films du quartier",
-  "videos.headline.before": "Lorne Park en",
-  "videos.headline.em": "images animées",
-  "videos.italic":
-    "Trois courts métrages de Lorne Park et Bloor West — les boutiques, les rues, et le rythme d'une année dans le quartier.",
-
-  // ---- gallery ----
-  "gallery.kicker": "Chapitre",
-  "gallery.headline": "Le portfolio visuel complet.",
-
-  // ---- closing CTA ----
-  "closing.eyebrow": "Votre prochain chapitre",
-  "closing.headline": "Envisagez votre visite au 1654 Birchwood.",
-  "closing.sub":
-    "Les visites privées se font sur rendez-vous. Plages de 30 minutes de 10h à 20h — préavis d'une nuit préféré.",
-
-  // ---- footer ----
-  "footer.listed": "Inscrit par",
-  "footer.email": "Courriel",
-  "footer.phone": "Téléphone",
-  "footer.copyright":
-    "Tout le contenu de ce site est protégé par le droit d'auteur. Reproduction interdite sans autorisation.",
-};
-
-const it: Dict = {
-  // ---- nav ----
-  "nav.property": "La residenza",
-  "nav.floorplans": "Planimetrie",
-  "nav.county": "Il quartiere",
-  "nav.pool": "Terreno per la piscina",
-  "nav.gallery": "Galleria",
-  "nav.designer": "David Small Designs",
-  "nav.contact": "Contatti",
-  "nav.menu": "Menu",
-  "nav.close": "Chiudi",
-
-  // ---- header utilities ----
-  "btn.privateViewing": "Prenotare una visita privata",
-  "btn.beginJourney": "Iniziare la visita",
-  "btn.scrollMore": "Scorri per saperne di più",
-  "btn.scrollRooms": "Scorri attraverso gli ambienti",
-  "btn.visitTheCounty": "Scoprire la Toronto occidentale →",
-  "btn.readCoverage": "Leggi l'articolo",
-
-  // ---- hero ----
-  "hero.kicker": "Lorne Park · Mississauga",
-  "hero.headline": "A Contemporary Zen Residence in Lorne Park.",
-  "hero.sub": "1654 Birchwood Drive · Lorne Park, Mississauga · Ontario.",
-
-  // ---- chapter labels ----
-  "ch.chapter": "Capitolo",
-  "ch.property.headline": "La residenza.",
-  "ch.floorplans.headline": "Le planimetrie.",
-  "ch.floorplans.sub": "Un insieme di disegni in scala.",
-  "ch.floorplans.statement":
-    "Toccare una planimetria per ingrandirla. Un dossier informativo stampabile è disponibile su richiesta.",
-
-  // ---- press / neighbourhood ----
-  "press.eyebrow": "Menzioni di rilievo",
-  "press.headline": "La stampa, su",
-  "press.headlineEm": "Lorne Park",
-  "videos.eyebrow": "Filmati del quartiere",
-  "videos.headline.before": "Lorne Park, in",
-  "videos.headline.em": "immagini in movimento",
-  "videos.italic":
-    "Tre cortometraggi tra Lorne Park e Bloor West — le botteghe, le strade e il ritmo di un anno nel quartiere.",
-
-  // ---- gallery ----
-  "gallery.kicker": "Capitolo",
-  "gallery.headline": "L'archivio visivo completo.",
-
-  // ---- closing CTA ----
-  "closing.eyebrow": "Il prossimo capitolo",
-  "closing.headline": "Pensare a una visita al 1654 Birchwood.",
-  "closing.sub":
-    "Le visite private sono su appuntamento. Fasce di mezz'ora ogni giorno dalle 10 alle 20 — si gradisce il preavviso il giorno prima.",
-
-  // ---- footer ----
-  "footer.listed": "A cura di",
-  "footer.email": "E-mail",
-  "footer.phone": "Telefono",
-  "footer.copyright":
-    "Tutti i contenuti di questo sito sono protetti da diritto d'autore. Riproduzione vietata senza autorizzazione.",
-};
-
 const es: Dict = {
   // ---- nav ----
   "nav.property": "La residencia",
@@ -216,12 +98,12 @@ const es: Dict = {
   "btn.beginJourney": "Comenzar el recorrido",
   "btn.scrollMore": "Desplazarse para ver más",
   "btn.scrollRooms": "Recorrer las estancias",
-  "btn.visitTheCounty": "Conocer el oeste de Toronto →",
+  "btn.visitTheCounty": "Conocer Mississauga →",
   "btn.readCoverage": "Leer el artículo",
 
   // ---- hero ----
   "hero.kicker": "Lorne Park · Mississauga",
-  "hero.headline": "A Contemporary Zen Residence in Lorne Park.",
+  "hero.headline": "Una residencia contemporánea de estilo zen en Lorne Park.",
   "hero.sub": "1654 Birchwood Drive · Lorne Park, Mississauga · Ontario.",
 
   // ---- chapter labels ----
@@ -277,12 +159,12 @@ const ar: Dict = {
   "btn.beginJourney": "بدء الجولة",
   "btn.scrollMore": "تابع التمرير للمزيد",
   "btn.scrollRooms": "تصفّح الغرف",
-  "btn.visitTheCounty": "اكتشاف غرب Toronto →",
+  "btn.visitTheCounty": "اكتشاف Mississauga →",
   "btn.readCoverage": "قراءة المقال",
 
   // ---- hero ----
   "hero.kicker": "Lorne Park · Mississauga",
-  "hero.headline": "A Contemporary Zen Residence in Lorne Park.",
+  "hero.headline": "مسكن معاصر بروح زِن في Lorne Park.",
   "hero.sub": "1654 Birchwood Drive · Lorne Park, Mississauga · Ontario.",
 
   // ---- chapter labels ----
@@ -338,12 +220,12 @@ const zh: Dict = {
   "btn.beginJourney": "开启导览",
   "btn.scrollMore": "向下滚动了解更多",
   "btn.scrollRooms": "逐间浏览空间",
-  "btn.visitTheCounty": "走进多伦多西区 →",
+  "btn.visitTheCounty": "走进 Mississauga →",
   "btn.readCoverage": "阅读报道",
 
   // ---- hero ----
   "hero.kicker": "Lorne Park · Mississauga",
-  "hero.headline": "A Contemporary Zen Residence in Lorne Park.",
+  "hero.headline": "位于 Lorne Park 的当代禅意宅邸。",
   "hero.sub": "1654 Birchwood Drive · Lorne Park, Mississauga · Ontario.",
 
   // ---- chapter labels ----
@@ -382,135 +264,71 @@ const zh: Dict = {
     "本网站所有内容均受版权保护。未经许可不得转载。",
 };
 
-const ja: Dict = {
+const hi: Dict = {
   // ---- nav ----
-  "nav.property": "邸宅",
-  "nav.floorplans": "間取り図",
-  "nav.county": "街並み",
-  "nav.pool": "プール用地",
-  "nav.gallery": "ギャラリー",
+  "nav.property": "आवास",
+  "nav.floorplans": "फ़्लोर प्लान",
+  "nav.county": "पड़ोस",
+  "nav.pool": "पूल-योग्य ज़मीन",
+  "nav.gallery": "गैलरी",
   "nav.designer": "David Small Designs",
-  "nav.contact": "お問い合わせ",
-  "nav.menu": "メニュー",
-  "nav.close": "閉じる",
+  "nav.contact": "संपर्क",
+  "nav.menu": "मेनू",
+  "nav.close": "बंद करें",
 
   // ---- header utilities ----
-  "btn.privateViewing": "プライベート内覧のご予約",
-  "btn.beginJourney": "ご案内をはじめる",
-  "btn.scrollMore": "スクロールしてさらに",
-  "btn.scrollRooms": "各室をスクロールでご覧ください",
-  "btn.visitTheCounty": "西トロントへ →",
-  "btn.readCoverage": "記事を読む",
+  "btn.privateViewing": "निजी विज़िट का समय तय करें",
+  "btn.beginJourney": "टूर शुरू करें",
+  "btn.scrollMore": "और देखने के लिए स्क्रॉल करें",
+  "btn.scrollRooms": "कमरों में स्क्रॉल करें",
+  "btn.visitTheCounty": "Mississauga को जानें →",
+  "btn.readCoverage": "पूरा लेख पढ़ें",
 
   // ---- hero ----
   "hero.kicker": "Lorne Park · Mississauga",
-  "hero.headline": "A Contemporary Zen Residence in Lorne Park.",
+  "hero.headline": "Lorne Park में एक समकालीन ज़ेन-प्रेरित आवास।",
   "hero.sub": "1654 Birchwood Drive · Lorne Park, Mississauga · Ontario.",
 
   // ---- chapter labels ----
-  "ch.chapter": "章",
-  "ch.property.headline": "邸宅。",
-  "ch.floorplans.headline": "間取り図。",
-  "ch.floorplans.sub": "縮尺に基づく一連の図面。",
+  "ch.chapter": "अध्याय",
+  "ch.property.headline": "आवास।",
+  "ch.floorplans.headline": "फ़्लोर प्लान।",
+  "ch.floorplans.sub": "पैमाने पर तैयार किए गए फ़्लोर प्लान का एक सेट।",
   "ch.floorplans.statement":
-    "図面をタップすると原寸大でご覧いただけます。印刷可能な資料一式はご請求に応じてお渡しいたします。",
+    "किसी भी प्लान पर टैप करें उसे पूर्ण आकार में देखने के लिए। एक प्रिंट करने योग्य सूचना पैकेज अनुरोध पर उपलब्ध है।",
 
   // ---- press / neighbourhood ----
-  "press.eyebrow": "主な掲載",
-  "press.headline": "メディアが綴る",
+  "press.eyebrow": "उल्लेखनीय संदर्भ",
+  "press.headline": "इस पर संपादकीय प्रेस",
   "press.headlineEm": "Lorne Park",
-  "videos.eyebrow": "街の映像",
-  "videos.headline.before": "Lorne Park を、",
-  "videos.headline.em": "動く映像で",
+  "videos.eyebrow": "पड़ोस की फ़िल्में",
+  "videos.headline.before": "Lorne Park,",
+  "videos.headline.em": "चल-चित्र में",
   "videos.italic":
-    "Lorne Park と Bloor West を巡る三本の短編 —— 店々、路地、そしてこの街に流れる一年の呼吸。",
+    "Lorne Park और Bloor West से तीन लघु फ़िल्में — दुकानें, गलियाँ, और पड़ोस में एक साल की लय।",
 
   // ---- gallery ----
-  "gallery.kicker": "章",
-  "gallery.headline": "ビジュアルアーカイブのすべて。",
+  "gallery.kicker": "अध्याय",
+  "gallery.headline": "पूर्ण दृश्य अभिलेख।",
 
   // ---- closing CTA ----
-  "closing.eyebrow": "次なる章へ",
-  "closing.headline": "1654 Birchwood への訪問を、ご検討ください。",
+  "closing.eyebrow": "आपका अगला अध्याय",
+  "closing.headline": "1654 Birchwood में अपनी विज़िट पर विचार करें।",
   "closing.sub":
-    "プライベート内覧はご予約制です。毎日午前10時から午後8時まで、30分単位でご案内いたします — 前日までのご連絡を歓迎いたします。",
+    "निजी विज़िट पूर्व-अपॉइंटमेंट पर होती हैं। रोज़ सुबह 10 बजे से रात 8 बजे तक आधे-घंटे के स्लॉट — एक रात पहले सूचना पसंदीदा।",
 
   // ---- footer ----
-  "footer.listed": "媒介",
-  "footer.email": "メール",
-  "footer.phone": "電話",
+  "footer.listed": "द्वारा सूचीबद्ध",
+  "footer.email": "ईमेल",
+  "footer.phone": "फ़ोन",
   "footer.copyright":
-    "本サイトのすべてのコンテンツは著作権により保護されています。許可なく複製することを禁じます。",
-};
-
-const he: Dict = {
-  // ---- nav ----
-  "nav.property": "הבית",
-  "nav.floorplans": "תוכניות הקומות",
-  "nav.county": "השכונה",
-  "nav.pool": "מגרש לבריכה",
-  "nav.gallery": "גלריה",
-  "nav.designer": "David Small Designs",
-  "nav.contact": "יצירת קשר",
-  "nav.menu": "תפריט",
-  "nav.close": "סגירה",
-
-  // ---- header utilities ----
-  "btn.privateViewing": "תיאום ביקור פרטי",
-  "btn.beginJourney": "התחלת הסיור",
-  "btn.scrollMore": "להמשיך בגלילה",
-  "btn.scrollRooms": "גלילה בין החללים",
-  "btn.visitTheCounty": "לגלות את מערב Toronto ←",
-  "btn.readCoverage": "לקריאת הכתבה",
-
-  // ---- hero ----
-  "hero.kicker": "Lorne Park · Mississauga",
-  "hero.headline": "A Contemporary Zen Residence in Lorne Park.",
-  "hero.sub": "1654 Birchwood Drive · Lorne Park, Mississauga · Ontario.",
-
-  // ---- chapter labels ----
-  "ch.chapter": "פרק",
-  "ch.property.headline": "הבית.",
-  "ch.floorplans.headline": "תוכניות הקומות.",
-  "ch.floorplans.sub": "מערכת תוכניות מדודה, בקנה מידה.",
-  "ch.floorplans.statement":
-    "יש להקיש על כל תוכנית כדי לפתוח אותה בגודל מלא. חוברת מידע להדפסה זמינה לפי בקשה.",
-
-  // ---- press / neighbourhood ----
-  "press.eyebrow": "אזכורים נבחרים",
-  "press.headline": "מה שכתבו על",
-  "press.headlineEm": "Lorne Park",
-  "videos.eyebrow": "סרטים מן השכונה",
-  "videos.headline.before": "Lorne Park, ב",
-  "videos.headline.em": "תמונות נעות",
-  "videos.italic":
-    "שלושה סרטים קצרים מ-Lorne Park ומ-Bloor West — החנויות, הרחובות, וקצב של שנה שלמה בשכונה.",
-
-  // ---- gallery ----
-  "gallery.kicker": "פרק",
-  "gallery.headline": "התיעוד החזותי המלא.",
-
-  // ---- closing CTA ----
-  "closing.eyebrow": "הפרק הבא שלכם",
-  "closing.headline": "שקלו ביקור ב-1654 Birchwood.",
-  "closing.sub":
-    "הביקורים הפרטיים מתקיימים בתיאום מראש. מפגשים של חצי שעה מדי יום בין השעות 10:00 ל-20:00 — מומלצת הודעה ערב קודם.",
-
-  // ---- footer ----
-  "footer.listed": "באמצעות",
-  "footer.email": "דוא״ל",
-  "footer.phone": "טלפון",
-  "footer.copyright":
-    "כל החומר באתר זה מוגן בזכויות יוצרים. אין לשכפלו ללא היתר.",
+    "इस साइट की सारी सामग्री कॉपीराइट है। बिना अनुमति के पुनरुत्पादन वर्जित है।",
 };
 
 export const translations: Record<Lang, Dict> = {
   en,
-  fr,
-  it,
   es,
   ar,
   zh,
-  ja,
-  he,
+  hi,
 };

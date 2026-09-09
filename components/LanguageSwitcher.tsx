@@ -6,19 +6,16 @@ import { useLanguage } from "./LanguageProvider";
 
 const LANGS: { code: Lang; label: string; title: string }[] = [
   { code: "en", label: "EN", title: "English" },
-  { code: "fr", label: "FR", title: "Français" },
-  { code: "it", label: "IT", title: "Italiano" },
   { code: "es", label: "ES", title: "Español" },
   { code: "ar", label: "AR", title: "العربية" },
   { code: "zh", label: "ZH", title: "中文" },
-  { code: "ja", label: "JA", title: "日本語" },
-  { code: "he", label: "HE", title: "עברית" },
+  { code: "hi", label: "HI", title: "हिन्दी" },
 ];
 
 /**
- * Compact 8-language dropdown. With only EN/FR we used inline buttons;
- * once we move to 8 codes the pill row gets too wide for the header, so
- * we switch to a popover.
+ * Compact 5-language dropdown. Reduced from 8 to focus on buyer segments
+ * most active in the Lorne Park / GTA luxury market: English base, plus
+ * Spanish, Arabic, Mandarin, and Hindi.
  */
 export default function LanguageSwitcher() {
   const { lang, setLang } = useLanguage();
