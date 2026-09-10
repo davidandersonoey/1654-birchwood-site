@@ -100,7 +100,7 @@ const en: Dict = {
   "pool.layoutB": "Layout B",
 
   // ---- neighbourhood ----
-  "nb.aside": "What you are buying, when you buy on Birchwood, is not just a house — it is Lorne Park.",
+  "nb.aside": "1654 Birchwood is not just a house — it is located in the ultra-exclusive enclave within prestigious Lorne Park known as 'White Oaks'.",
   "nb.history.eyebrow": "A Brief History",
   "nb.history.title": "How Lorne Park came to be …",
   "nb.enclaves.label": "The Enclaves",
@@ -199,7 +199,7 @@ const es: Dict = {
   "pool.layoutB": "Distribución B",
 
   // ---- neighbourhood ----
-  "nb.aside": "Lo que compra al comprar en Birchwood no es sólo una casa — es Lorne Park.",
+  "nb.aside": "1654 Birchwood no es sólo una casa — se ubica en el enclave ultra-exclusivo dentro del prestigioso Lorne Park conocido como 'White Oaks'.",
   "nb.history.eyebrow": "Una breve historia",
   "nb.history.title": "Cómo llegó a ser Lorne Park …",
   "nb.enclaves.label": "Los enclaves",
@@ -298,7 +298,7 @@ const ar: Dict = {
   "pool.layoutB": "التصميم ب",
 
   // ---- neighbourhood ----
-  "nb.aside": "ما تشترونه حين تشترون في Birchwood ليس مجرّد بيت — إنه Lorne Park.",
+  "nb.aside": "1654 Birchwood ليس مجرّد بيت — يقع ضمن الحيّ الفرعيّ الحصريّ للغاية داخل Lorne Park المرموق المعروف باسم 'White Oaks'.",
   "nb.history.eyebrow": "لمحة تاريخيّة",
   "nb.history.title": "كيف نشأ Lorne Park …",
   "nb.enclaves.label": "الأحياء الفرعيّة",
@@ -397,7 +397,7 @@ const zh: Dict = {
   "pool.layoutB": "方案 B",
 
   // ---- neighbourhood ----
-  "nb.aside": "在 Birchwood 置业,买的不只是一栋房子 —— 是整个 Lorne Park。",
+  "nb.aside": "1654 Birchwood 不只是一栋房子 —— 它坐落于声誉卓著的 Lorne Park 中,专属的顶级社区 'White Oaks' 之内。",
   "nb.history.eyebrow": "简史",
   "nb.history.title": "Lorne Park 的由来 …",
   "nb.enclaves.label": "邻里街区",
@@ -496,7 +496,7 @@ const hi: Dict = {
   "pool.layoutB": "लेआउट B",
 
   // ---- neighbourhood ----
-  "nb.aside": "Birchwood में खरीदते समय आप केवल एक घर नहीं खरीद रहे — आप Lorne Park खरीद रहे हैं।",
+  "nb.aside": "1654 Birchwood सिर्फ़ एक घर नहीं है — यह प्रतिष्ठित Lorne Park के भीतर स्थित उस अति-विशिष्ट एनक्लेव में है जिसे 'White Oaks' के नाम से जाना जाता है।",
   "nb.history.eyebrow": "एक संक्षिप्त इतिहास",
   "nb.history.title": "Lorne Park कैसे बना …",
   "nb.enclaves.label": "एनक्लेव",

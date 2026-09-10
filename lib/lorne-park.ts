@@ -25,9 +25,9 @@ export interface NeighborhoodCard {
 
 export const LORNE_PARK_OVERVIEW = {
   kicker: "Lorne Park",
-  headline: "Mississauga's most prestigious address.",
+  headline: "Mississauga's most distinguished neighbourhood.",
   italic:
-    "South of the QEW along the shore of Lake Ontario — estate lots, a canopy of old oaks, and the quiet confidence of a neighbourhood that ranks with Oakville and the Bridle Path.",
+    "South of the QEW amongst the largest estate lots, a canopy of old oaks, and the quiet confidence of a neighbourhood that ranks with Oakville and the Bridle Path.",
 };
 
 /**
