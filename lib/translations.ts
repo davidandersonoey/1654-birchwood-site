@@ -113,7 +113,7 @@ const en: Dict = {
 
   // ---- hero updates banner ----
   "hero.updates.eyebrow": "What's new",
-  "hero.updates.body": "Newly Added Fifth Bedroom and Metal-Constructed Rear-Yard Privacy Fencing",
+  "hero.updates.body": "Newly Added Fifth Bedroom and Metal-Constructed Rear-Yard Privacy Fencing on Pool-Sized Lot",
 
   // ---- footer ----
   "footer.listed": "Listed by",
@@ -216,7 +216,7 @@ const es: Dict = {
 
   // ---- hero updates banner ----
   "hero.updates.eyebrow": "Novedades",
-  "hero.updates.body": "Quinto dormitorio recién añadido y cerramiento metálico de privacidad en el jardín trasero",
+  "hero.updates.body": "Quinto dormitorio recién añadido y cerramiento metálico de privacidad en el jardín trasero, sobre un terreno apto para piscina",
 
   // ---- footer ----
   "footer.listed": "Listado por",
@@ -319,7 +319,7 @@ const ar: Dict = {
 
   // ---- hero updates banner ----
   "hero.updates.eyebrow": "الجديد",
-  "hero.updates.body": "غرفة نوم خامسة أضيفت حديثًا وسياج معدنيّ للخصوصيّة في الفناء الخلفيّ",
+  "hero.updates.body": "غرفة نوم خامسة أضيفت حديثًا وسياج معدنيّ للخصوصيّة في الفناء الخلفيّ، على أرض بحجم مسبح",
 
   // ---- footer ----
   "footer.listed": "مُعروض من قِبَل",
@@ -422,7 +422,7 @@ const zh: Dict = {
 
   // ---- hero updates banner ----
   "hero.updates.eyebrow": "最新更新",
-  "hero.updates.body": "新增第五间卧室以及金属结构后院隐私围栏",
+  "hero.updates.body": "新增第五间卧室以及金属结构后院隐私围栏,坐落于可建泳池地块",
 
   // ---- footer ----
   "footer.listed": "代理",
@@ -525,7 +525,7 @@ const hi: Dict = {
 
   // ---- hero updates banner ----
   "hero.updates.eyebrow": "नया क्या है",
-  "hero.updates.body": "नव-निर्मित पाँचवाँ शयन कक्ष और मेटल-निर्मित रियर-यार्ड प्राइवेसी बाड़",
+  "hero.updates.body": "नव-निर्मित पाँचवाँ शयन कक्ष और मेटल-निर्मित रियर-यार्ड प्राइवेसी बाड़, पूल-योग्य ज़मीन पर",
 
   // ---- footer ----
   "footer.listed": "द्वारा सूचीबद्ध",
@@ -628,7 +628,7 @@ const pa: Dict = {
 
   // ---- hero updates banner ----
   "hero.updates.eyebrow": "ਕੀ ਨਵਾਂ ਹੈ",
-  "hero.updates.body": "ਨਵਾਂ ਬਣਾਇਆ ਪੰਜਵਾਂ ਸੌਣ ਕਮਰਾ ਅਤੇ ਧਾਤ ਦੀ ਬਣਤਰ ਵਾਲੀ ਪਿਛਲੇ ਯਾਰਡ ਦੀ ਪ੍ਰਾਈਵੇਸੀ ਬਾੜ",
+  "hero.updates.body": "ਨਵਾਂ ਬਣਾਇਆ ਪੰਜਵਾਂ ਸੌਣ ਕਮਰਾ ਅਤੇ ਧਾਤ ਦੀ ਬਣਤਰ ਵਾਲੀ ਪਿਛਲੇ ਯਾਰਡ ਦੀ ਪ੍ਰਾਈਵੇਸੀ ਬਾੜ, ਪੂਲ-ਯੋਗ ਪਲਾਟ ਉੱਤੇ",
 
   // ---- footer ----
   "footer.listed": "ਦੁਆਰਾ ਸੂਚੀਬੱਧ",

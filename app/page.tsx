@@ -123,24 +123,23 @@ export default function Home() {
           <div
             className="reveal"
             style={{
-              marginTop: 28,
+              marginTop: 32,
               display: "inline-flex",
               flexDirection: "column",
               alignItems: "flex-start",
-              padding: "14px 22px",
-              background: "rgba(255,255,255,0.92)",
-              borderLeft: "3px solid var(--terracotta, #b04c2b)",
-              borderRadius: 2,
-              boxShadow: "0 4px 24px rgba(0,0,0,0.08)",
-              maxWidth: 520,
+              padding: "20px 28px",
+              background: "var(--olive, #4a5c2f)",
+              borderRadius: 3,
+              boxShadow: "0 6px 32px rgba(0,0,0,0.25)",
+              maxWidth: 620,
             }}
           >
             <span
               style={{
                 fontSize: 11,
-                letterSpacing: "0.22em",
+                letterSpacing: "0.28em",
                 textTransform: "uppercase",
-                color: "var(--terracotta, #b04c2b)",
+                color: "rgba(255,255,255,0.72)",
                 fontWeight: 600,
               }}
             >
@@ -149,10 +148,11 @@ export default function Home() {
             <strong
               style={{
                 fontFamily: "var(--font-serif)",
-                fontSize: 18,
-                lineHeight: 1.3,
-                color: "var(--ink, #1c1c1a)",
-                marginTop: 6,
+                fontSize: 22,
+                lineHeight: 1.28,
+                color: "#ffffff",
+                marginTop: 8,
+                letterSpacing: "0.005em",
               }}
             >
               {t("hero.updates.body")}
