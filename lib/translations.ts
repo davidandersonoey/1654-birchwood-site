@@ -100,6 +100,7 @@ const en: Dict = {
   "pool.layoutB": "Layout B",
 
   // ---- neighbourhood ----
+  "nb.aside": "1654 Birchwood is not just a house — it is located in the ultra-exclusive enclave within prestigious Lorne Park known as 'White Oaks'.",
   "nb.aside.eyebrow": "Ultra-exclusive enclave within a prestigious community",
   "nb.aside.body": "White Oaks in Lorne Park sits in southwest Mississauga, between the QEW and Lake Ontario — twenty-five minutes from downtown Toronto, minutes from the beaches and conservation lands that define it. Walk the marsh boardwalks, the multiple gardens, and the waterfront trail — a destination enclave known locally as 'White Oaks'.",
   "nb.history.eyebrow": "A Brief History",
@@ -204,6 +205,7 @@ const es: Dict = {
   "pool.layoutB": "Distribución B",
 
   // ---- neighbourhood ----
+  "nb.aside": "1654 Birchwood no es sólo una casa — se ubica en el enclave ultra-exclusivo dentro del prestigioso Lorne Park conocido como 'White Oaks'.",
   "nb.aside.eyebrow": "Enclave ultra-exclusivo dentro de una comunidad prestigiosa",
   "nb.aside.body": "White Oaks en Lorne Park se encuentra en el suroeste de Mississauga, entre la QEW y el lago Ontario — a veinticinco minutos del centro de Toronto, a minutos de las playas y las áreas de conservación que lo definen. Recorra los senderos de tablones del pantano, los múltiples jardines y el sendero costero — un enclave destino conocido localmente como 'White Oaks'.",
   "nb.history.eyebrow": "Una breve historia",
@@ -308,6 +310,7 @@ const ar: Dict = {
   "pool.layoutB": "التصميم ب",
 
   // ---- neighbourhood ----
+  "nb.aside": "1654 Birchwood ليس مجرّد بيت — يقع ضمن الحيّ الفرعيّ الحصريّ للغاية داخل Lorne Park المرموق المعروف باسم 'White Oaks'.",
   "nb.aside.eyebrow": "حيّ فرعيّ حصريّ للغاية داخل مجتمع مرموق",
   "nb.aside.body": "يقع White Oaks في Lorne Park جنوب غرب Mississauga، بين طريق QEW وبحيرة Ontario — خمس وعشرون دقيقة من وسط Toronto، ودقائق قليلة عن الشواطئ والمحميّات الطبيعيّة التي تميّزه. تسيّروا على ممرّات المستنقعات الخشبيّة، والحدائق المتعدّدة، ومسار الواجهة المائيّة — حيّ فرعيّ مقصود يُعرف محليًا باسم 'White Oaks'.",
   "nb.history.eyebrow": "لمحة تاريخيّة",
@@ -412,6 +415,7 @@ const zh: Dict = {
   "pool.layoutB": "方案 B",
 
   // ---- neighbourhood ----
+  "nb.aside": "1654 Birchwood 不只是一栋房子 —— 它坐落于声誉卓著的 Lorne Park 中,专属的顶级社区 'White Oaks' 之内。",
   "nb.aside.eyebrow": "声誉卓著社区中的顶级专属社区",
   "nb.aside.body": "White Oaks 位于 Lorne Park 内,处于 Mississauga 西南,QEW 高速与 Ontario 湖之间 —— 距多伦多市中心二十五分钟车程,离塑造这片街区的湖滩与自然保护区仅数分钟。漫步沼泽木栈道、诸多花园与湖畔小径 —— 这片本地人称为 'White Oaks' 的目的地社区。",
   "nb.history.eyebrow": "简史",
@@ -516,6 +520,7 @@ const hi: Dict = {
   "pool.layoutB": "लेआउट B",
 
   // ---- neighbourhood ----
+  "nb.aside": "1654 Birchwood सिर्फ़ एक घर नहीं है — यह प्रतिष्ठित Lorne Park के भीतर स्थित उस अति-विशिष्ट एनक्लेव में है जिसे 'White Oaks' के नाम से जाना जाता है।",
   "nb.aside.eyebrow": "प्रतिष्ठित समुदाय के भीतर अति-विशिष्ट एनक्लेव",
   "nb.aside.body": "Lorne Park के भीतर White Oaks दक्षिण-पश्चिम Mississauga में स्थित है, QEW और Ontario झील के बीच — डाउनटाउन Toronto से पच्चीस मिनट, और उन समुद्र-तटों व संरक्षण भूमि से कुछ ही मिनट जो इसे परिभाषित करते हैं। मार्श बोर्डवॉक, कई बगीचों और वाटरफ्रंट ट्रेल पर चलें — 'White Oaks' के नाम से स्थानीय स्तर पर पहचाना जाने वाला एक गंतव्य एनक्लेव।",
   "nb.history.eyebrow": "एक संक्षिप्त इतिहास",
@@ -620,6 +625,7 @@ const pa: Dict = {
   "pool.layoutB": "ਲੇਆਉਟ B",
 
   // ---- neighbourhood ----
+  "nb.aside": "1654 Birchwood ਸਿਰਫ਼ ਇੱਕ ਘਰ ਨਹੀਂ ਹੈ — ਇਹ ਪ੍ਰਸਿੱਧ Lorne Park ਦੇ ਅੰਦਰ ਸਥਿਤ ਉਸ ਅਤਿ-ਵਿਸ਼ੇਸ਼ ਏਨਕਲੇਵ ਵਿੱਚ ਹੈ ਜਿਸਨੂੰ 'White Oaks' ਵਜੋਂ ਜਾਣਿਆ ਜਾਂਦਾ ਹੈ।",
   "nb.aside.eyebrow": "ਪ੍ਰਸਿੱਧ ਭਾਈਚਾਰੇ ਦੇ ਅੰਦਰ ਅਤਿ-ਵਿਸ਼ੇਸ਼ ਏਨਕਲੇਵ",
   "nb.aside.body": "Lorne Park ਦੇ ਅੰਦਰ White Oaks ਦੱਖਣ-ਪੱਛਮੀ Mississauga ਵਿੱਚ ਸਥਿਤ ਹੈ, QEW ਅਤੇ Ontario ਝੀਲ ਦੇ ਵਿਚਕਾਰ — ਡਾਊਨਟਾਊਨ Toronto ਤੋਂ ਪੱਚੀ ਮਿੰਟ, ਅਤੇ ਉਹਨਾਂ ਸਮੁੰਦਰ-ਤੱਟਾਂ ਅਤੇ ਸੰਭਾਲ ਭੂਮੀਆਂ ਤੋਂ ਕੁਝ ਹੀ ਮਿੰਟ ਜੋ ਇਸਨੂੰ ਪਰਿਭਾਸ਼ਿਤ ਕਰਦੀਆਂ ਹਨ। ਮਾਰਸ਼ ਬੋਰਡਵਾਕ, ਕਈ ਬਾਗਾਂ ਅਤੇ ਵਾਟਰਫ੍ਰੰਟ ਟ੍ਰੇਲ ਉੱਤੇ ਸੈਰ ਕਰੋ — ਇੱਕ ਮੰਜ਼ਿਲ ਏਨਕਲੇਵ ਜਿਸਨੂੰ ਸਥਾਨਕ ਤੌਰ ਉੱਤੇ 'White Oaks' ਵਜੋਂ ਜਾਣਿਆ ਜਾਂਦਾ ਹੈ।",
   "nb.history.eyebrow": "ਇੱਕ ਸੰਖੇਪ ਇਤਿਹਾਸ",
