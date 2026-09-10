@@ -413,10 +413,10 @@ export const RESOURCES: ResourceLink[] = [
 //  Plan Your Visit CTA — links out to the City of Mississauga Park Finder.
 // =========================================================================
 export const PLAN_YOUR_VISIT = {
-  kicker: "Plan Your Visit",
-  headline: "A neighbourhood by the lake.",
+  kicker: "Ultra-exclusive enclave within a prestigious community",
+  headline: "Plan your visit.",
   body:
-    "Lorne Park sits on the Lake Ontario shore in southwest Mississauga, south of the QEW — twenty-five minutes from downtown Toronto, minutes from the beaches and conservation lands that define it. Walk the marsh boardwalks, the rhododendron gardens, and the waterfront trail; the neighbourhood rewards the visit.",
+    "White Oaks in Lorne Park sits in southwest Mississauga, between the QEW and Lake Ontario — twenty-five minutes from downtown Toronto, minutes from the beaches and conservation lands that define it. Walk the marsh boardwalks, the multiple gardens, and the waterfront trail — a destination enclave known locally as 'White Oaks'.",
   ctaLabel: "Explore Mississauga's Parks →",
   ctaUrl: "https://www.mississauga.ca/events-and-attractions/parks/find-a-park/",
 };

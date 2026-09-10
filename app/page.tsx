@@ -350,12 +350,9 @@ export default function Home() {
         headline={LORNE_PARK_OVERVIEW.headline}
         subhead={LORNE_PARK_OVERVIEW.italic}
         aside={
-          <div className="county-overview-lede">
-            <p style={{ fontSize: 11, letterSpacing: "0.22em", textTransform: "uppercase", color: "var(--terracotta, #b04c2b)", margin: "0 0 14px", fontWeight: 600 }}>
-              {t("nb.aside.eyebrow")}
-            </p>
-            <p style={{ margin: 0 }}>{t("nb.aside.body")}</p>
-          </div>
+          <p className="county-overview-lede">
+            {t("nb.aside")}
+          </p>
         }
       >
         <section className="history-rail reveal" id="how-lorne-park-came-to-be">
