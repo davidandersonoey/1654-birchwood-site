@@ -15,7 +15,7 @@
  * namespaces added in Batch 2.
  */
 
-export type Lang = "en" | "es" | "ar" | "zh" | "hi";
+export type Lang = "en" | "es" | "ar" | "zh" | "hi" | "pa";
 export const RTL_LANGS: Lang[] = ["ar"];
 
 type Dict = Record<string, string>;
@@ -515,10 +515,110 @@ const hi: Dict = {
     "इस साइट की सारी सामग्री कॉपीराइट है। बिना अनुमति के पुनरुत्पादन वर्जित है।",
 };
 
+const pa: Dict = {
+  // ---- nav ----
+  "nav.property": "ਰਿਹਾਇਸ਼",
+  "nav.floorplans": "ਫ਼ਲੋਰ ਪਲਾਨ",
+  "nav.county": "ਗੁਆਂਢ",
+  "nav.pool": "ਪੂਲ-ਯੋਗ ਪਲਾਟ",
+  "nav.gallery": "ਗੈਲਰੀ",
+  "nav.designer": "David Small Designs",
+  "nav.contact": "ਸੰਪਰਕ",
+  "nav.menu": "ਮੀਨੂੰ",
+  "nav.close": "ਬੰਦ ਕਰੋ",
+
+  // ---- header utilities ----
+  "btn.privateViewing": "ਨਿੱਜੀ ਦੌਰੇ ਦਾ ਸਮਾਂ ਤੈਅ ਕਰੋ",
+  "btn.beginJourney": "ਦੌਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+  "btn.scrollMore": "ਹੋਰ ਵੇਖਣ ਲਈ ਸਕ੍ਰੌਲ ਕਰੋ",
+  "btn.scrollRooms": "ਕਮਰਿਆਂ ਵਿੱਚ ਸਕ੍ਰੌਲ ਕਰੋ",
+  "btn.visitTheCounty": "Mississauga ਨੂੰ ਜਾਣੋ →",
+  "btn.readCoverage": "ਪੂਰਾ ਲੇਖ ਪੜ੍ਹੋ",
+
+  // ---- hero ----
+  "hero.kicker": "Lorne Park · Mississauga",
+  "hero.headline": "Lorne Park ਵਿੱਚ ਇੱਕ ਸਮਕਾਲੀ ਜ਼ੈਨ-ਪ੍ਰੇਰਿਤ ਰਿਹਾਇਸ਼।",
+  "hero.sub": "1654 Birchwood Drive · Lorne Park, Mississauga · Ontario.",
+
+  // ---- chapter labels ----
+  "ch.chapter": "ਅਧਿਆਏ",
+  "ch.property.headline": "ਰਿਹਾਇਸ਼।",
+  "ch.floorplans.headline": "ਫ਼ਲੋਰ ਪਲਾਨ।",
+  "ch.floorplans.sub": "ਪੈਮਾਨੇ ਉੱਤੇ ਤਿਆਰ ਕੀਤੇ ਫ਼ਲੋਰ ਪਲਾਨ ਦਾ ਇੱਕ ਸੈੱਟ।",
+  "ch.floorplans.statement":
+    "ਕਿਸੇ ਵੀ ਪਲਾਨ ਨੂੰ ਪੂਰੇ ਆਕਾਰ ਵਿੱਚ ਖੋਲ੍ਹਣ ਲਈ ਟੈਪ ਕਰੋ। ਬੇਨਤੀ ਉੱਤੇ ਇੱਕ ਪ੍ਰਿੰਟ-ਯੋਗ ਜਾਣਕਾਰੀ ਪੈਕੇਜ ਉਪਲਬਧ ਹੈ।",
+
+  // ---- press / neighbourhood ----
+  "press.eyebrow": "ਪ੍ਰਮੁੱਖ ਹਵਾਲੇ",
+  "press.headline": "ਸੰਪਾਦਕੀ ਪ੍ਰੈਸ",
+  "press.headlineEm": "Lorne Park",
+  "videos.eyebrow": "ਗੁਆਂਢ ਦੀਆਂ ਫ਼ਿਲਮਾਂ",
+  "videos.headline.before": "Lorne Park,",
+  "videos.headline.em": "ਚਲਦੇ ਚਿੱਤਰਾਂ ਵਿੱਚ",
+  "videos.italic":
+    "Lorne Park ਅਤੇ Bloor West ਤੋਂ ਤਿੰਨ ਲਘੂ ਫ਼ਿਲਮਾਂ — ਦੁਕਾਨਾਂ, ਗਲੀਆਂ, ਅਤੇ ਗੁਆਂਢ ਵਿੱਚ ਇੱਕ ਸਾਲ ਦੀ ਲੈਅ।",
+
+  // ---- gallery ----
+  "gallery.kicker": "ਅਧਿਆਏ",
+  "gallery.headline": "ਪੂਰਾ ਦ੍ਰਿਸ਼ ਰਿਕਾਰਡ।",
+
+  // ---- closing CTA ----
+  "closing.eyebrow": "ਤੁਹਾਡਾ ਅਗਲਾ ਅਧਿਆਏ",
+  "closing.headline": "1654 Birchwood ਦੀ ਆਪਣੀ ਯਾਤਰਾ ਉੱਤੇ ਵਿਚਾਰ ਕਰੋ।",
+  "closing.sub":
+    "ਨਿੱਜੀ ਯਾਤਰਾਵਾਂ ਅਪੌਇੰਟਮੈਂਟ ਰਾਹੀਂ ਹੁੰਦੀਆਂ ਹਨ। ਹਰ ਰੋਜ਼ ਸਵੇਰੇ 10 ਵਜੇ ਤੋਂ ਰਾਤ 8 ਵਜੇ ਤੱਕ ਅੱਧੇ-ਘੰਟੇ ਦੀਆਂ ਸਲੌਟਾਂ — ਇੱਕ ਰਾਤ ਪਹਿਲਾਂ ਸੂਚਨਾ ਤਰਜੀਹੀ।",
+
+  // ---- chapter 1 / narrative ----
+  "ch.property.sub":
+    "Lorne Park / White Oaks ਵਿੱਚ ਇੱਕ ਸਮਕਾਲੀ ਜ਼ੈਨ-ਪ੍ਰੇਰਿਤ ਰਿਹਾਇਸ਼ — ਚਾਰ ਸਾਲਾਂ ਵਿੱਚ ਤਿਆਰ 7,000+ ਵਰਗ ਫੁੱਟ ਦਾ ਪੂਰਾ ਰਹਿਣ ਦਾ ਥਾਂ।",
+  "ch.property.narrative":
+    "1654 Birchwood Drive Lorne Park / White Oaks ਦੇ ਦਿਲ ਵਿੱਚ ਇੱਕ ਅਸਾਧਾਰਨ ਕਸਟਮ ਰਿਹਾਇਸ਼ ਹੈ — ਸਮਕਾਲੀ ਡਿਜ਼ਾਈਨ ਅਤੇ ਸ਼ਾਂਤ ਜ਼ੈਨ ਪ੍ਰਭਾਵ ਦਾ ਬਿਹਤਰੀਨ ਸੁਮੇਲ। ਸੱਤ ਹਜ਼ਾਰ ਵਰਗ ਫੁੱਟ ਤੋਂ ਵੱਧ ਦਾ ਪੂਰਾ ਰਹਿਣ ਦਾ ਥਾਂ: ਵੀਹ ਫੁੱਟ ਦਾ ਫ਼ੋਇਰ ਜਿਸ ਵਿੱਚ ਰੌਸ਼ਨ ਗਲਾਸ ਪਿਵੋਟ ਪ੍ਰਵੇਸ਼ ਦੁਆਰ ਹੈ, ਸ਼ੈੱਫ ਕਿਚਨ ਜਿਸ ਵਿੱਚ ਸਕੈਂਡੇਨੇਵੀਅਨ PITT ਗੈਸ ਕਾਊਂਟਰ ਰੇਂਜ ਅਤੇ ਵੱਖਰਾ ਪ੍ਰੇਪ ਰੂਮ ਹੈ, ਸਪਾ-ਪ੍ਰੇਰਿਤ ਏਨਸੂਟ ਅਤੇ ਤਿੰਨ-ਪਾਸੇ ਵਾਲੀ ਫ਼ਾਇਰਪਲੇਸ ਵਾਲਾ ਪ੍ਰਾਇਮਰੀ ਸੂਟ, ਅਤੇ ਮਨੋਰੰਜਨ ਅਤੇ ਤੰਦਰੁਸਤੀ ਲਈ ਤਿਆਰ ਹੇਠਲਾ ਪੱਧਰ — ਪੰਦਰਾਂ-ਸੀਟ ਦਾ ਸਾਊਂਡਪਰੂਫ਼ ਥੀਏਟਰ, ਗਲਾਸ ਦੀਆਂ ਕੰਧਾਂ ਵਾਲੀ ਰੈਫ਼ਰੀਜਰੇਟਿਡ ਵਾਈਨ ਕੈਂਟੀਨਾ, ਜਿਮ ਰੂਮ, ਅਤੇ ਪੂਲ-ਆਕਾਰ ਦੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਬਾੜਬੰਦ ਨਿੱਜੀ ਯਾਰਡ ਤੱਕ ਵਾਕਆਊਟ ਵਾਲਾ ਨੈਨੀ ਸੂਟ। ਆਧੁਨਿਕ ਇੱਟ ਅਤੇ ਐਲੂਮੀਨੀਅਮ ਕਲੈਡਿੰਗ, ਸਿੰਚਾਈ ਸਹਿਤ ਲੈਂਡਸਕੇਪਡ ਮੈਦਾਨ, ਅਤੇ ਪੂਰੇ ਘਰ ਵਿੱਚ Control4 ਸਮਾਰਟ-ਹੋਮ ਆਟੋਮੇਸ਼ਨ।",
+
+  // ---- particulars ----
+  "particulars.eyebrow": "ਵੇਰਵੇ",
+  "particulars.listingPrice": "ਲਿਸਟਿੰਗ ਕੀਮਤ",
+  "particulars.mls": "MLS®",
+  "particulars.bedrooms": "ਸੌਣ ਕਮਰੇ",
+  "particulars.bathrooms": "ਬਾਥਰੂਮ",
+  "particulars.livingArea": "ਰਹਿਣ ਦਾ ਖੇਤਰ",
+  "particulars.lotDimensions": "ਪਲਾਟ ਦੇ ਮਾਪ",
+  "particulars.yearBuilt": "ਬਣਨ ਦਾ ਸਾਲ",
+  "particulars.community": "ਭਾਈਚਾਰਾ",
+
+  // ---- pool sized lot ----
+  "pool.eyebrow": "ਅਧਿਆਏ",
+  "pool.headline.before": "ਇੱਕ",
+  "pool.headline.em": "ਪੂਲ-ਯੋਗ ਪਲਾਟ",
+  "pool.sub":
+    "88 ਫੁੱਟ (ਸ਼ਹਿਰ ਵੱਲੋਂ ਵਾਧੂ ਲਗਭਗ 10 ਫੁੱਟ ਸਾਈਡ ਯਾਰਡ ਸਹਿਤ) × 119 ਫੁੱਟ ਪੂਲ-ਯੋਗ ਪਲਾਟ। ਪੂਲ ਦੀ ਥਾਂ ਅਤੇ ਵਿਕਲਪਾਂ ਲਈ ਇਹ ਡਰਾਇੰਗ ਵੇਖੋ। ਇਹ ਆਧਿਕਾਰਿਕ ਮਨਜ਼ੂਰ ਡਰਾਇੰਗ ਨਹੀਂ ਹਨ, ਸਗੋਂ ਤੁਹਾਡੇ ਸੁਪਨਿਆਂ ਦੇ ਓਏਸਿਸ ਨੂੰ ਡਿਜ਼ਾਈਨ ਕਰਨ ਲਈ ਸੇਧਾਂ ਹਨ।",
+  "pool.layoutA": "ਲੇਆਉਟ A",
+  "pool.layoutB": "ਲੇਆਉਟ B",
+
+  // ---- neighbourhood ----
+  "nb.aside": "1654 Birchwood ਸਿਰਫ਼ ਇੱਕ ਘਰ ਨਹੀਂ ਹੈ — ਇਹ ਪ੍ਰਸਿੱਧ Lorne Park ਦੇ ਅੰਦਰ ਸਥਿਤ ਉਸ ਅਤਿ-ਵਿਸ਼ੇਸ਼ ਏਨਕਲੇਵ ਵਿੱਚ ਹੈ ਜਿਸਨੂੰ 'White Oaks' ਵਜੋਂ ਜਾਣਿਆ ਜਾਂਦਾ ਹੈ।",
+  "nb.history.eyebrow": "ਇੱਕ ਸੰਖੇਪ ਇਤਿਹਾਸ",
+  "nb.history.title": "Lorne Park ਕਿਵੇਂ ਬਣਿਆ …",
+  "nb.enclaves.label": "ਏਨਕਲੇਵ",
+  "nb.parks.label": "ਪਾਰਕ ਅਤੇ ਕੁਦਰਤ",
+  "nb.restaurants.label": "ਖਾਣ ਦੇ ਥਾਂ",
+  "nb.shopping.label": "ਦੁਕਾਨਾਂ",
+  "nb.schools.label": "ਸਕੂਲ",
+  "nb.recreation.label": "ਮਨੋਰੰਜਨ",
+  "nb.connectivity.label": "ਆਵਾਜਾਈ",
+
+  // ---- footer ----
+  "footer.listed": "ਦੁਆਰਾ ਸੂਚੀਬੱਧ",
+  "footer.email": "ਈਮੇਲ",
+  "footer.phone": "ਫ਼ੋਨ",
+  "footer.copyright":
+    "ਇਸ ਸਾਈਟ ਦੀ ਸਾਰੀ ਸਮੱਗਰੀ ਕਾਪੀਰਾਈਟ ਹੈ। ਬਿਨਾਂ ਇਜਾਜ਼ਤ ਦੁਬਾਰਾ ਪੇਸ਼ ਕਰਨਾ ਵਰਜਿਤ ਹੈ।",
+};
+
 export const translations: Record<Lang, Dict> = {
   en,
   es,
   ar,
   zh,
   hi,
+  pa,
 };

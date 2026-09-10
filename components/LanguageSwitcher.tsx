@@ -10,12 +10,13 @@ const LANGS: { code: Lang; label: string; title: string }[] = [
   { code: "ar", label: "AR", title: "العربية" },
   { code: "zh", label: "ZH", title: "中文" },
   { code: "hi", label: "HI", title: "हिन्दी" },
+  { code: "pa", label: "PA", title: "ਪੰਜਾਬੀ" },
 ];
 
 /**
- * Compact 5-language dropdown. Reduced from 8 to focus on buyer segments
- * most active in the Lorne Park / GTA luxury market: English base, plus
- * Spanish, Arabic, Mandarin, and Hindi.
+ * Compact 6-language dropdown. Focused on buyer segments most active in
+ * the Lorne Park / GTA luxury market: English base, plus Spanish,
+ * Arabic, Mandarin, Hindi, and Punjabi.
  */
 export default function LanguageSwitcher() {
   const { lang, setLang } = useLanguage();
