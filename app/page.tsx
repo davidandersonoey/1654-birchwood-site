@@ -135,27 +135,13 @@ export default function Home() {
         number="01"
         kicker="Chapter"
         headline="The Residence."
-        subhead="A contemporary zen residence in Lorne Park — 7,000+ square feet of finished living, crafted over four years."
+        subhead={t("ch.property.sub")}
       >
         <div className="chapter-intro-with-map reveal">
           <div className="chapter-intro-map">
             <LorneParkMap />
           </div>
-          <p className="chapter-statement chapter-statement--inline">
-            1654 Birchwood Drive is an exceptional custom residence in the
-            heart of Lorne Park / White Oaks — a masterful fusion of
-            contemporary design and serene zen influence. Over seven thousand
-            square feet of finished living space: a twenty-foot foyer with
-            its illuminated glass pivot entrance door, a chef&apos;s kitchen
-            with a Scandinavian PITT gas counter range and separate prep room,
-            a primary suite with spa-inspired ensuite and three-sided
-            fireplace, and a lower level engineered for entertainment and
-            wellness — a fifteen-seat soundproof theatre room, a glass-walled
-            refrigerated wine cantina, a gym room, and a nanny suite with
-            walkout to a pool-sized fully-fenced private yard. Modern brick
-            and aluminum cladding, landscaped grounds with irrigation, and
-            Control4 smart-home automation throughout.
-          </p>
+          <p className="chapter-statement chapter-statement--inline">{t("ch.property.narrative")}</p>
         </div>
 
         {ROOMS.length > 0 ? (
@@ -198,7 +184,7 @@ export default function Home() {
       <section className="property-facts" id="particulars">
         <div className="container">
           <div className="property-facts-head reveal">
-            <p className="eyebrow">The Particulars</p>
+            <p className="eyebrow">{t("particulars.eyebrow")}</p>
             <h2>{PROPERTY.shortName}</h2>
             <p className="address">
               {PROPERTY.city}, {PROPERTY.region}
@@ -206,37 +192,37 @@ export default function Home() {
           </div>
           <dl className="property-facts-grid reveal">
             <div className="fact">
-              <dt>Listing Price</dt>
+              <dt>{t("particulars.listingPrice")}</dt>
               <dd className="emphasis">{PROPERTY.price}</dd>
             </div>
             {PROPERTY.mlsNumber ? (
               <div className="fact">
-                <dt>MLS®</dt>
+                <dt>{t("particulars.mls")}</dt>
                 <dd>{PROPERTY.mlsNumber}</dd>
               </div>
             ) : null}
             <div className="fact">
-              <dt>Bedrooms</dt>
+              <dt>{t("particulars.bedrooms")}</dt>
               <dd>{PROPERTY.bedrooms}</dd>
             </div>
             <div className="fact">
-              <dt>Bathrooms</dt>
+              <dt>{t("particulars.bathrooms")}</dt>
               <dd>{PROPERTY.bathrooms}</dd>
             </div>
             <div className="fact">
-              <dt>Living Area</dt>
+              <dt>{t("particulars.livingArea")}</dt>
               <dd>{PROPERTY.livingArea}</dd>
             </div>
             <div className="fact">
-              <dt>Lot Dimensions</dt>
+              <dt>{t("particulars.lotDimensions")}</dt>
               <dd>{PROPERTY.lotDimensions}</dd>
             </div>
             <div className="fact">
-              <dt>Year Built</dt>
+              <dt>{t("particulars.yearBuilt")}</dt>
               <dd>{PROPERTY.yearBuilt}</dd>
             </div>
             <div className="fact fact-wide">
-              <dt>Community</dt>
+              <dt>{t("particulars.community")}</dt>
               <dd>{PROPERTY.community}</dd>
             </div>
           </dl>
@@ -326,15 +312,14 @@ export default function Home() {
         subhead={LORNE_PARK_OVERVIEW.italic}
         aside={
           <p className="county-overview-lede">
-            What you are buying, when you buy on Birchwood, is not just a house
-            — it is Lorne Park.
+            {t("nb.aside")}
           </p>
         }
       >
         <section className="history-rail reveal" id="how-lorne-park-came-to-be">
           <div className="history-rail-head">
-            <p className="eyebrow">A Brief History</p>
-            <h3>How Lorne Park came to be …</h3>
+            <p className="eyebrow">{t("nb.history.eyebrow")}</p>
+            <h3>{t("nb.history.title")}</h3>
           </div>
           <div className="history-rail-track">
             {HISTORY_CARDS.map((card) => (
@@ -374,31 +359,31 @@ export default function Home() {
           </section>
         ) : null}
 
-        <ThreeUp rail id="enclaves" label="The Enclaves"
+        <ThreeUp rail id="enclaves" label={t("nb.enclaves.label")}
           italic="Lorne Park is not one neighbourhood but several — from the historic estate streets to a private lakefront colony."
           num="03 — i" cards={ENCLAVES} />
 
-        <ThreeUp rail id="parks" label="Parks & Nature"
+        <ThreeUp rail id="parks" label={t("nb.parks.label")}
           italic="Waterfront beaches, a protected lakefront marsh, rhododendron gardens, and a rare tallgrass prairie — all within the neighbourhood."
           num="03 — ii" cards={PARKS} />
 
-        <ThreeUp rail id="restaurants" label="The Tables"
+        <ThreeUp rail id="restaurants" label={t("nb.restaurants.label")}
           italic="From Clarkson Village to the Port Credit waterfront — the everyday dining culture of the lakeshore."
           num="03 — iii" cards={RESTAURANTS} />
 
-        <ThreeUp rail id="shopping" label="The Shops"
+        <ThreeUp rail id="shopping" label={t("nb.shopping.label")}
           italic="Everyday plazas, boutique waterfront retail, and two of the GTA's major shopping destinations a short drive away."
           num="03 — iv" cards={SHOPPING} />
 
-        <ThreeUp rail id="schools" label="The Schools"
+        <ThreeUp rail id="schools" label={t("nb.schools.label")}
           italic="One of the region's top public catchments — anchored by Lorne Park Secondary and a trio of highly rated elementaries."
           num="03 — v" cards={SCHOOLS} />
 
-        <ThreeUp rail id="recreation" label="Recreation"
+        <ThreeUp rail id="recreation" label={t("nb.recreation.label")}
           italic="The waterfront trail, private golf and country clubs, marinas, and the lake itself — minutes from the door."
           num="03 — vi" cards={RECREATION} />
 
-        <ThreeUp rail id="connectivity" label="Getting Around"
+        <ThreeUp rail id="connectivity" label={t("nb.connectivity.label")}
           italic="Two GO stations on the Lakeshore West line, the QEW at hand, and Pearson twenty-five minutes north."
           num="03 — vii" cards={CONNECTIVITY} />
       </Chapter>
@@ -532,16 +517,11 @@ export default function Home() {
       <section className="pool-section" id="pool">
         <div className="container">
           <div className="pool-head reveal">
-            <p className="eyebrow">Chapter</p>
+            <p className="eyebrow">{t("pool.eyebrow")}</p>
             <h2 className="pool-headline">
-              A <em>pool-sized lot</em>.
+              {t("pool.headline.before")} <em>{t("pool.headline.em")}</em>.
             </h2>
-            <p className="pool-subhead">
-              Pool-sized lot on 88 ft (with an additional 10 foot or so side
-              yard from the City) × 119 ft lot. Consider these drawings for
-              pool location and options. These are not official approved
-              drawings but rather guidelines for designing your dream oasis.
-            </p>
+            <p className="pool-subhead">{t("pool.sub")}</p>
           </div>
           <div className="pool-grid reveal">
             <figure className="pool-figure">
@@ -551,7 +531,7 @@ export default function Home() {
                 alt="1654 Birchwood Drive — proposed pool concept, layout A"
                 loading="lazy"
               />
-              <figcaption>Layout A</figcaption>
+              <figcaption>{t("pool.layoutA")}</figcaption>
             </figure>
             <figure className="pool-figure">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -560,7 +540,7 @@ export default function Home() {
                 alt="1654 Birchwood Drive — proposed pool concept, layout B"
                 loading="lazy"
               />
-              <figcaption>Layout B</figcaption>
+              <figcaption>{t("pool.layoutB")}</figcaption>
             </figure>
           </div>
         </div>
