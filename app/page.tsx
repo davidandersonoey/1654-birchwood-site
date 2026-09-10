@@ -119,6 +119,45 @@ export default function Home() {
           <div className="hero-kicker">{t("hero.kicker")}</div>
           <h1 className="hero-headline">{t("hero.headline")}</h1>
           <p className="hero-sub">{t("hero.sub")}</p>
+
+          <div
+            className="reveal"
+            style={{
+              marginTop: 28,
+              display: "inline-flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              padding: "14px 22px",
+              background: "rgba(255,255,255,0.92)",
+              borderLeft: "3px solid var(--terracotta, #b04c2b)",
+              borderRadius: 2,
+              boxShadow: "0 4px 24px rgba(0,0,0,0.08)",
+              maxWidth: 520,
+            }}
+          >
+            <span
+              style={{
+                fontSize: 11,
+                letterSpacing: "0.22em",
+                textTransform: "uppercase",
+                color: "var(--terracotta, #b04c2b)",
+                fontWeight: 600,
+              }}
+            >
+              {t("hero.updates.eyebrow")}
+            </span>
+            <strong
+              style={{
+                fontFamily: "var(--font-serif)",
+                fontSize: 18,
+                lineHeight: 1.3,
+                color: "var(--ink, #1c1c1a)",
+                marginTop: 6,
+              }}
+            >
+              {t("hero.updates.body")}
+            </strong>
+          </div>
         </div>
 
         <div className="scroll-hint" aria-hidden="true">

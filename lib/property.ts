@@ -227,6 +227,12 @@ export const ROOMS: RoomCard[] = [
     imageSrc: "/gallery/birchwood/091-1900x-photo.jpg",
   },
   {
+    title: "Bedroom Five",
+    body:
+      "Large bedroom proportions finished with vertical wood accent finished carpentry, a large double-door closet, and a semi-ensuite three-piece bathroom — overlooking the front yard with privacy blinds.",
+    imageSrc: "/gallery/birchwood/yard/IMG_1318.jpg",
+  },
+  {
     title: "The Theatre",
     body:
       "A fifteen-seat soundproof home theatre on the lower level — the showpiece of the entertainment wing. Built for film nights, sports finals, and the household weekends that don’t have to leave home.",
