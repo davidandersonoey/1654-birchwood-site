@@ -2729,3 +2729,36 @@ p, .chapter-statement, .plan-visit-body, .county-overview p,
   gap: clamp(24px, 3vw, 40px);
 }
 .pool-grid .pool-figure { margin: 0; padding: 0; max-width: 100%; }
+
+/* --- Pool figures: click-to-expand affordance --- */
+.pool-figure-btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+.pool-figure-btn img {
+  transition: filter 0.25s ease;
+}
+.pool-figure-btn:hover img,
+.pool-figure-btn:focus-visible img {
+  filter: brightness(0.94);
+}
+.pool-expand-hint {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(28, 26, 20, 0.66);
+  color: #fff;
+  font-size: 14px;
+  pointer-events: none;
+  opacity: 0.85;
+}

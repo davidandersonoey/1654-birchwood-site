@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import HeroVideo from "@/components/HeroVideo";
@@ -102,8 +103,65 @@ export default function Home() {
   const isUnbranded = pathname.startsWith("/unbranded");
   const contactHref = isUnbranded ? "/unbranded/contact" : "/contact";
 
+  // Lightbox state for pool site plans (click to expand)
+  const [lightbox, setLightbox] = useState<string | null>(null);
+  useEffect(() => {
+    if (!lightbox) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setLightbox(null); };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = prev;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [lightbox]);
+
   return (
     <>
+      {/* Lightbox overlay for expanded pool site plans */}
+      {lightbox ? (
+        <div
+          className="lightbox"
+          role="dialog"
+          aria-modal="true"
+          onClick={() => setLightbox(null)}
+          style={{
+            position: "fixed", inset: 0, zIndex: 9999,
+            background: "rgba(15, 12, 8, 0.94)",
+            display: "flex", alignItems: "center", justifyContent: "center",
+            padding: "clamp(16px, 3vw, 40px)", cursor: "zoom-out",
+          }}
+        >
+          <button
+            type="button"
+            onClick={(e) => { e.stopPropagation(); setLightbox(null); }}
+            aria-label="Close"
+            style={{
+              position: "absolute", top: 20, right: 24,
+              width: 42, height: 42, borderRadius: 21,
+              border: "1px solid rgba(255,255,255,0.35)",
+              background: "rgba(0,0,0,0.4)", color: "#fff",
+              fontSize: 22, lineHeight: 1, cursor: "pointer",
+            }}
+          >
+            ×
+          </button>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={lightbox}
+            alt="Expanded view"
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              maxWidth: "100%", maxHeight: "100%",
+              objectFit: "contain", background: "#fff",
+              padding: 8, boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
+              cursor: "default",
+            }}
+          />
+        </div>
+      ) : null}
+
       {/* ===================================================================
           HERO
       =================================================================== */}
@@ -564,21 +622,37 @@ export default function Home() {
           </div>
           <div className="pool-grid reveal">
             <figure className="pool-figure">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/gallery/birchwood/pool-concept-siteplan.jpg"
-                alt="1654 Birchwood Drive — proposed pool concept, layout A"
-                loading="lazy"
-              />
+              <button
+                type="button"
+                className="pool-figure-btn"
+                onClick={() => setLightbox("/gallery/birchwood/pool-concept-siteplan.jpg")}
+                aria-label={`Expand ${t("pool.layoutA")}`}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/gallery/birchwood/pool-concept-siteplan.jpg"
+                  alt="1654 Birchwood Drive — proposed pool concept, layout A"
+                  loading="lazy"
+                />
+                <span className="pool-expand-hint" aria-hidden="true">⤢</span>
+              </button>
               <figcaption>{t("pool.layoutA")}</figcaption>
             </figure>
             <figure className="pool-figure">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/gallery/birchwood/pool-concept-siteplan-2.jpg"
-                alt="1654 Birchwood Drive — proposed pool concept, layout B"
-                loading="lazy"
-              />
+              <button
+                type="button"
+                className="pool-figure-btn"
+                onClick={() => setLightbox("/gallery/birchwood/pool-concept-siteplan-2.jpg")}
+                aria-label={`Expand ${t("pool.layoutB")}`}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/gallery/birchwood/pool-concept-siteplan-2.jpg"
+                  alt="1654 Birchwood Drive — proposed pool concept, layout B"
+                  loading="lazy"
+                />
+                <span className="pool-expand-hint" aria-hidden="true">⤢</span>
+              </button>
               <figcaption>{t("pool.layoutB")}</figcaption>
             </figure>
           </div>
