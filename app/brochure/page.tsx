@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 // changes — just swap the src values.
 const COVER_IMG = PHOTOS[0]?.src ?? "/gallery/birchwood/001-1900x-photo.jpg";
 const INTRO_IMG = "/gallery/birchwood/002-1900x-photo.jpg";
-const REAR_ELEV = "/gallery/birchwood/118-1900x-photo.jpg";
+const REAR_ELEV = "/gallery/birchwood/059-1900x-photo.jpg";
 
 export default function BrochurePage() {
   return (

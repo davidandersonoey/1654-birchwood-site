@@ -99,7 +99,6 @@ export const PHOTOS: PropertyPhoto[] = [
   { src: "/gallery/birchwood/001-1900x-photo.jpg", alt: "1654 Birchwood Drive — front elevation at twilight.", kind: "exterior" },
   { src: "/gallery/birchwood/002-1900x-photo.jpg", alt: "1654 Birchwood Drive — exterior approach.", kind: "exterior" },
   { src: "/gallery/birchwood/050-1900x-photo.jpg", alt: "1654 Birchwood Drive — interior.", kind: "interior" },
-  { src: "/gallery/birchwood/118-1900x-photo.jpg", alt: "1654 Birchwood Drive — aerial view.", kind: "drone" },
 ];
 
 // -------------------------------------------------------------------------

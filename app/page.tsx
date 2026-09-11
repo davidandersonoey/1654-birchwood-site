@@ -589,8 +589,8 @@ export default function Home() {
           SECTION BREAK — before the Gallery, matching the Luminate rhythm
       =================================================================== */}
       <SectionBreak
-        imageSrc={PHOTOS[3]?.src ?? PHOTOS[0].src}
-        imageAlt="Aerial approach to 1654 Birchwood Drive."
+        imageSrc="/gallery/birchwood/059-1900x-photo.jpg"
+        imageAlt="1654 Birchwood Drive — interior view."
         place="1654 Birchwood Drive · Lorne Park"
         coordinates={PROPERTY.gps}
       />
