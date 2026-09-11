@@ -602,8 +602,8 @@ export default function Home() {
         id="gallery"
         number="04"
         kicker="Chapter"
-        headline="Pictures, Images and Such."
-        subhead="The house, the grounds, the street, the lake."
+        headline="Pictures and Images."
+        subhead="The house, the privacy fencing, the pool-sized lot."
       >
         <div className="container-wide">
           {GALLERY_IMPORTED.length > 0 ? (

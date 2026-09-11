@@ -75,7 +75,7 @@ const en: Dict = {
 
   // ---- chapter 1 / narrative ----
   "ch.property.sub":
-    "A contemporary zen residence in Lorne Park / White Oaks — 7,000+ square feet of finished living, crafted over four years.",
+    "Contemporary Zen residence in exclusive White Oaks in Lorne Park — 7,000+ square feet of finished living.",
   "ch.property.narrative":
     "1654 Birchwood Drive is an exceptional custom residence in the heart of Lorne Park / White Oaks — a masterful fusion of contemporary design and serene zen influence. Over seven thousand square feet of finished living space: a twenty-foot foyer with its illuminated glass pivot entrance door, a chef's kitchen with a Scandinavian PITT gas counter range and separate prep room, a primary suite with spa-inspired ensuite and three-sided fireplace, and a lower level engineered for entertainment and wellness — a fifteen-seat soundproof theatre room, a glass-walled refrigerated wine cantina, a gym room, and a nanny suite with walkout to a pool-sized fully-fenced private yard. Modern brick and aluminum cladding, landscaped grounds with irrigation, and Control4 smart-home automation throughout.",
 
@@ -180,7 +180,7 @@ const es: Dict = {
 
   // ---- chapter 1 / narrative ----
   "ch.property.sub":
-    "Una residencia contemporánea de estilo zen en Lorne Park / White Oaks — más de 7.000 pies cuadrados de espacio habitable, elaborados a lo largo de cuatro años.",
+    "Residencia contemporánea de estilo zen en el exclusivo White Oaks de Lorne Park — más de 7.000 pies cuadrados de espacio habitable.",
   "ch.property.narrative":
     "1654 Birchwood Drive es una residencia personalizada excepcional en el corazón de Lorne Park / White Oaks — una fusión magistral de diseño contemporáneo e influencia zen serena. Más de siete mil pies cuadrados de espacio habitable: un vestíbulo de seis metros con puerta pivotante de vidrio iluminada, una cocina de chef con una encimera de gas escandinava PITT y una habitación de preparación separada, una suite principal con baño con estilo spa y chimenea de tres caras, y un nivel inferior diseñado para entretenimiento y bienestar — una sala de cine insonorizada para quince personas, una vinoteca refrigerada con paredes de vidrio, un gimnasio, y una suite para niñera con salida a un jardín privado del tamaño de una piscina totalmente cercado. Revestimiento moderno de ladrillo y aluminio, jardines paisajísticos con riego, y automatización doméstica inteligente Control4 en toda la propiedad.",
 
@@ -285,7 +285,7 @@ const ar: Dict = {
 
   // ---- chapter 1 / narrative ----
   "ch.property.sub":
-    "مسكن معاصر بروح زِن في Lorne Park / White Oaks — أكثر من 7,000 قدم مربّع من الفضاءات المكتملة، صُنعت على مدى أربع سنوات.",
+    "مسكن معاصر بروح زِن في White Oaks الحصريّ داخل Lorne Park — أكثر من 7,000 قدم مربّع من الفضاءات المكتملة.",
   "ch.property.narrative":
     "1654 Birchwood Drive مسكن مخصّص استثنائي في قلب Lorne Park / White Oaks — دمج بارع بين التصميم المعاصر وتأثير الزِن الهادئ. أكثر من سبعة آلاف قدم مربّع من الفضاءات المكتملة: بهو دخول بارتفاع عشرين قدمًا مع باب دوّار زجاجي مضاء، مطبخ شيف مزوّد بموقد غاز PITT الاسكندنافي وغرفة تحضير منفصلة، جناح رئيسي بحمّام سبا الأنيق ومدفأة ثلاثية الأوجه، ومستوى سفلي مصمّم للترفيه والعافية — قاعة سينما معزولة صوتيًا لخمسة عشر مقعدًا، قبو نبيذ مبرّد بجدران زجاجية، غرفة رياضة، وجناح مربّية مع مخرج إلى حديقة خاصّة مسيّجة بالكامل بحجم يكفي لمسبح. تكسية عصريّة من الطوب والألمنيوم، حدائق منسّقة مع نظام ريّ، وأتمتة منزل ذكيّ Control4 في جميع أنحاء المنزل.",
 
@@ -390,7 +390,7 @@ const zh: Dict = {
 
   // ---- chapter 1 / narrative ----
   "ch.property.sub":
-    "位于 Lorne Park / White Oaks 的当代禅意宅邸 —— 逾 7,000 平方英尺的成品居住空间,历时四年精心打造。",
+    "位于 Lorne Park 内专属 White Oaks 的当代禅意宅邸 —— 逾 7,000 平方英尺的成品居住空间。",
   "ch.property.narrative":
     "1654 Birchwood Drive 是坐落于 Lorne Park / White Oaks 心脏地带的一座卓越定制宅邸 —— 现代设计与静谧禅意的巧妙融合。逾七千平方英尺的成品居住空间:二十英尺高的门厅配备发光玻璃旋转入户门、大厨房配 Scandinavian PITT 燃气台面炉具及独立备餐间、主卧套房含 Spa 式套内卫浴与三面壁炉、专为娱乐与养生打造的下层空间 —— 十五座隔音影音室、玻璃墙冷藏酒窖、健身房,以及带独立出口通往泳池大小、全围栏私家庭园的保姆套房。现代砖石与铝板外墙,配灌溉系统的园林景观,以及贯穿全宅的 Control4 智能家居系统。",
 
@@ -495,7 +495,7 @@ const hi: Dict = {
 
   // ---- chapter 1 / narrative ----
   "ch.property.sub":
-    "Lorne Park / White Oaks में एक समकालीन ज़ेन-प्रेरित आवास — चार वर्षों में तैयार 7,000+ वर्ग फीट का पूर्ण रहने का स्थान।",
+    "Lorne Park के भीतर विशिष्ट White Oaks में एक समकालीन ज़ेन-प्रेरित आवास — 7,000+ वर्ग फीट का पूर्ण रहने का स्थान।",
   "ch.property.narrative":
     "1654 Birchwood Drive Lorne Park / White Oaks के हृदय में एक असाधारण कस्टम आवास है — समकालीन डिज़ाइन और शांत ज़ेन प्रभाव का उत्कृष्ट संयोजन। सात हज़ार वर्ग फीट से अधिक का पूर्ण रहने का स्थान: बीस-फुट का फ़ोयर जिसमें रोशन ग्लास पिवोट प्रवेश द्वार है, शेफ किचन जिसमें स्कैंडिनेवियन PITT गैस काउंटर रेंज और अलग प्रेप रूम है, स्पा-प्रेरित एनसुइट और तीन-तरफा फ़ायरप्लेस के साथ प्राइमरी सुइट, और मनोरंजन एवं वेलनेस के लिए तैयार निचला स्तर — पंद्रह-सीट का साउंडप्रूफ थिएटर, कांच की दीवारों वाली रेफ्रिजरेटेड वाइन कैंटीना, जिम रूम, और पूल-आकार के पूरी तरह से बाड़बंद निजी यार्ड तक वॉकआउट के साथ नैनी सुइट। आधुनिक ईंट और एल्युमिनियम क्लैडिंग, सिंचाई के साथ भूदृश्य निर्मित मैदान, और पूरे घर में Control4 स्मार्ट-होम स्वचालन।",
 
@@ -600,7 +600,7 @@ const pa: Dict = {
 
   // ---- chapter 1 / narrative ----
   "ch.property.sub":
-    "Lorne Park / White Oaks ਵਿੱਚ ਇੱਕ ਸਮਕਾਲੀ ਜ਼ੈਨ-ਪ੍ਰੇਰਿਤ ਰਿਹਾਇਸ਼ — ਚਾਰ ਸਾਲਾਂ ਵਿੱਚ ਤਿਆਰ 7,000+ ਵਰਗ ਫੁੱਟ ਦਾ ਪੂਰਾ ਰਹਿਣ ਦਾ ਥਾਂ।",
+    "Lorne Park ਦੇ ਅੰਦਰ ਵਿਸ਼ੇਸ਼ White Oaks ਵਿੱਚ ਇੱਕ ਸਮਕਾਲੀ ਜ਼ੈਨ-ਪ੍ਰੇਰਿਤ ਰਿਹਾਇਸ਼ — 7,000+ ਵਰਗ ਫੁੱਟ ਦਾ ਪੂਰਾ ਰਹਿਣ ਦਾ ਥਾਂ।",
   "ch.property.narrative":
     "1654 Birchwood Drive Lorne Park / White Oaks ਦੇ ਦਿਲ ਵਿੱਚ ਇੱਕ ਅਸਾਧਾਰਨ ਕਸਟਮ ਰਿਹਾਇਸ਼ ਹੈ — ਸਮਕਾਲੀ ਡਿਜ਼ਾਈਨ ਅਤੇ ਸ਼ਾਂਤ ਜ਼ੈਨ ਪ੍ਰਭਾਵ ਦਾ ਬਿਹਤਰੀਨ ਸੁਮੇਲ। ਸੱਤ ਹਜ਼ਾਰ ਵਰਗ ਫੁੱਟ ਤੋਂ ਵੱਧ ਦਾ ਪੂਰਾ ਰਹਿਣ ਦਾ ਥਾਂ: ਵੀਹ ਫੁੱਟ ਦਾ ਫ਼ੋਇਰ ਜਿਸ ਵਿੱਚ ਰੌਸ਼ਨ ਗਲਾਸ ਪਿਵੋਟ ਪ੍ਰਵੇਸ਼ ਦੁਆਰ ਹੈ, ਸ਼ੈੱਫ ਕਿਚਨ ਜਿਸ ਵਿੱਚ ਸਕੈਂਡੇਨੇਵੀਅਨ PITT ਗੈਸ ਕਾਊਂਟਰ ਰੇਂਜ ਅਤੇ ਵੱਖਰਾ ਪ੍ਰੇਪ ਰੂਮ ਹੈ, ਸਪਾ-ਪ੍ਰੇਰਿਤ ਏਨਸੂਟ ਅਤੇ ਤਿੰਨ-ਪਾਸੇ ਵਾਲੀ ਫ਼ਾਇਰਪਲੇਸ ਵਾਲਾ ਪ੍ਰਾਇਮਰੀ ਸੂਟ, ਅਤੇ ਮਨੋਰੰਜਨ ਅਤੇ ਤੰਦਰੁਸਤੀ ਲਈ ਤਿਆਰ ਹੇਠਲਾ ਪੱਧਰ — ਪੰਦਰਾਂ-ਸੀਟ ਦਾ ਸਾਊਂਡਪਰੂਫ਼ ਥੀਏਟਰ, ਗਲਾਸ ਦੀਆਂ ਕੰਧਾਂ ਵਾਲੀ ਰੈਫ਼ਰੀਜਰੇਟਿਡ ਵਾਈਨ ਕੈਂਟੀਨਾ, ਜਿਮ ਰੂਮ, ਅਤੇ ਪੂਲ-ਆਕਾਰ ਦੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਬਾੜਬੰਦ ਨਿੱਜੀ ਯਾਰਡ ਤੱਕ ਵਾਕਆਊਟ ਵਾਲਾ ਨੈਨੀ ਸੂਟ। ਆਧੁਨਿਕ ਇੱਟ ਅਤੇ ਐਲੂਮੀਨੀਅਮ ਕਲੈਡਿੰਗ, ਸਿੰਚਾਈ ਸਹਿਤ ਲੈਂਡਸਕੇਪਡ ਮੈਦਾਨ, ਅਤੇ ਪੂਰੇ ਘਰ ਵਿੱਚ Control4 ਸਮਾਰਟ-ਹੋਮ ਆਟੋਮੇਸ਼ਨ।",
 
