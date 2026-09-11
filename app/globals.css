@@ -2696,14 +2696,11 @@ p, .chapter-statement, .plan-visit-body, .county-overview p,
 }
 .pool-figure img {
   width: 100%;
-  max-height: 62vh;
   height: auto;
   display: block;
   background: #fff;
   border: 1px solid var(--cream-deep);
   padding: clamp(8px, 1.4vw, 16px);
-  object-fit: contain;
-  object-position: center top;
   box-sizing: border-box;
 }
 .pool-figure figcaption {
