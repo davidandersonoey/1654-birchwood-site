@@ -12,6 +12,7 @@ import LorneParkMap from "@/components/LorneParkMap";
 import { useLanguage } from "@/components/LanguageProvider";
 import { PROPERTY, PHOTOS, FLOOR_PLANS, ROOMS } from "@/lib/property";
 import { GALLERY_IMPORTED } from "@/lib/gallery-imported";
+import { FEATURE_SECTIONS } from "@/lib/features";
 import {
   LORNE_PARK_OVERVIEW,
   HISTORY_CARDS,
@@ -696,6 +697,35 @@ export default function Home() {
           )}
         </div>
       </Chapter>
+
+      {/* ===================================================================
+          FEATURES LIST — every room / system, as supplied by the builder
+      =================================================================== */}
+      <section className="features-list" id="features">
+        <div className="container">
+          <div className="features-head reveal">
+            <p className="eyebrow">Appendix</p>
+            <h2>1654 Birchwood Drive <em>Features List.</em></h2>
+            <p className="features-sub">
+              Every room, every system — a complete inventory of finishes,
+              fittings and construction specifications.
+            </p>
+          </div>
+
+          <div className="features-grid reveal">
+            {FEATURE_SECTIONS.map((s) => (
+              <section key={s.title} className="features-block">
+                <h3>{s.title}</h3>
+                <ul>
+                  {s.items.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ===================================================================
           CLOSING CTA

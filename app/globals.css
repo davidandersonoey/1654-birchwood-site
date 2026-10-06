@@ -2759,3 +2759,90 @@ p, .chapter-statement, .plan-visit-body, .county-overview p,
   pointer-events: none;
   opacity: 0.85;
 }
+
+/* -------------------------------------------------------------------------
+   Features List — long-form appendix. Printed-sheet aesthetic:
+   uppercase bold section headers above a tight bulleted list, laid out
+   as a two-column grid at desktop widths that reflows to one column
+   on tablets and phones.
+   ------------------------------------------------------------------------- */
+.features-list {
+  padding: clamp(60px, 9vw, 110px) 0;
+  background: var(--cream, #f6efe0);
+  color: var(--ink, #1c1a14);
+  border-top: 1px solid var(--cream-deep, #e7decd);
+}
+.features-list .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 4vw, 48px);
+}
+.features-head {
+  text-align: center;
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+.features-head .eyebrow {
+  color: var(--terracotta, #b84f2a);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+}
+.features-head h2 {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(2rem, 3.6vw, 3rem);
+  line-height: 1.1;
+  margin: 0 0 0.9rem;
+  color: var(--ink);
+}
+.features-head h2 em {
+  font-style: italic;
+  color: var(--terracotta, #b84f2a);
+}
+.features-sub {
+  max-width: 60ch;
+  margin: 0 auto;
+  color: rgba(28, 26, 20, 0.72);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: clamp(2rem, 5vw, 4rem);
+  row-gap: clamp(1.75rem, 3vw, 2.75rem);
+}
+@media (max-width: 760px) {
+  .features-grid { grid-template-columns: 1fr; }
+}
+.features-block {
+  break-inside: avoid;
+}
+.features-block h3 {
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(28, 26, 20, 0.14);
+}
+.features-block ul {
+  list-style: disc;
+  padding-left: 1.1rem;
+  margin: 0;
+}
+.features-block li {
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  font-weight: 400;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: rgba(28, 26, 20, 0.88);
+  margin: 0.22rem 0;
+}
+.features-block li::marker {
+  color: rgba(28, 26, 20, 0.55);
+}

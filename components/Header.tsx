@@ -21,6 +21,7 @@ const NAV_BRANDED: NavItem[] = [
   { href: "/#neighbourhood", key: "nav.county" },
   { href: "/#pool", key: "nav.pool" },
   { href: "/#gallery", key: "nav.gallery" },
+  { href: "/#features", key: "nav.features" },
 ];
 
 // Unbranded nav keeps internal navigation inside /unbranded so the
@@ -32,6 +33,7 @@ const NAV_UNBRANDED: NavItem[] = [
   { href: "/unbranded#floorplans", key: "nav.floorplans" },
   { href: "/unbranded#neighbourhood", key: "nav.county" },
   { href: "/unbranded#gallery", key: "nav.gallery" },
+  { href: "/unbranded#features", key: "nav.features" },
 ];
 
 export default function Header() {
