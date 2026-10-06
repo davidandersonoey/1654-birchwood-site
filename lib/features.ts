@@ -48,8 +48,8 @@ export const FEATURE_SECTIONS: FeatureSection[] = [
   {
     title: "Living / Dining Room",
     items: [
-      "2-storey high ceiling",
-      "Floor-to-ceiling tall windows",
+      "2-storey double height foyer entrance",
+      "Floor-to-ceiling windows w/ Automated blind",
       "One-of-a-kind customized built-in wall unit",
       "In-ceiling speakers",
     ],
@@ -158,22 +158,21 @@ export const FEATURE_SECTIONS: FeatureSection[] = [
       "Built-in Closets",
       "Large windows — front & side tilt-turn",
       "Wired for in-wall TV",
-      "Three pc Bathroom Ensuite with heated tile flooring",
+      "Three pc Bathroom Semi-Ensuite with heated tile flooring",
       "Floating cabinetry",
       "Back-lit mirror",
     ],
   },
   {
-    title: "Bedroom #3",
+    title: "Bedroom #5",
     items: [
       "9' Ceiling Height",
       "LED pot lights",
-      "Built-in Closets",
-      "Large windows — front & side tilt-turn",
+      "Built-in Closet",
+      "Large windows — front view",
       "Wired for in-wall TV",
-      "Shared 3 pc Bathroom",
-      "Floating vanity cabinets",
-      "Back-lit mirror",
+      "Three pc Bathroom Semi-Ensuite with heated tile flooring",
+      "Floating cabinetry",
     ],
   },
   {
@@ -222,12 +221,13 @@ export const FEATURE_SECTIONS: FeatureSection[] = [
     ],
   },
   {
-    title: "Bedroom #5 / Guest or Nanny Suite",
+    title: "Bedroom #6 / Guest or Nanny Suite",
     items: [
       "9' Ceiling Height",
       "LED pot lights",
-      "Plenty of Built-in Closets",
-      "Tilt window with a large window well",
+      "Built-in Closets",
+      "Tilt window with a large light-filled window well",
+      "3 Piece bathroom (basement spa)",
     ],
   },
   {
@@ -316,10 +316,13 @@ export const FEATURE_SECTIONS: FeatureSection[] = [
     items: [
       "Engineered and built as an open concept space, using an extensive metal beam structure",
       "30 mpa concrete with extra rebar in foundation walls",
+      "Fully fenced rear yard with Metal Posts and Metal Fencing",
       "Rub-R-Wall waterproofing plus Geo Wrap membrane on concrete foundation wall",
       "Plywood sheathing exterior with all corners taped",
       "Elastomeric coating by NaturaSeal on all exterior sheathing",
       "Blue Skin for ACM panel & siding",
+      "Pool sized lot",
+      "City maintained boulevard approx. 10 feet (extra width to lot)",
     ],
   },
 ];
