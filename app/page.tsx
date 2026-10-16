@@ -169,6 +169,18 @@ export default function Home() {
       <section className="hero">
         <HeroVideo poster={PHOTOS[0].src} />
 
+        {/* SOLD banner — full-width band across the top of the hero */}
+        <div className="sold-banner" role="status" aria-label="This property has been sold">
+          <div className="sold-banner-inner">
+            <span className="sold-banner-rule" aria-hidden="true" />
+            <span className="sold-banner-word">Sold</span>
+            <span className="sold-banner-rule" aria-hidden="true" />
+          </div>
+          <p className="sold-banner-sub">
+            1654 Birchwood Drive · Lorne Park, Mississauga
+          </p>
+        </div>
+
         <div className="hero-gps">
           {PROPERTY.gps}
           <span>Lorne Park, Mississauga</span>

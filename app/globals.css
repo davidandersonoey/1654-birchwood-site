@@ -2846,3 +2846,69 @@ p, .chapter-statement, .plan-visit-body, .county-overview p,
 .features-block li::marker {
   color: rgba(28, 26, 20, 0.55);
 }
+
+/* -------------------------------------------------------------------------
+   SOLD banner — editorial band across the hero. Terracotta ground, cream
+   text, large serif wordmark flanked by hairline rules. Designed to read
+   immediately on load without covering the headline below.
+   ------------------------------------------------------------------------- */
+.sold-banner {
+  position: absolute;
+  top: clamp(80px, 11vh, 130px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  background: var(--terracotta, #b84f2a);
+  color: #f6efe0;
+  padding: clamp(14px, 2vw, 22px) clamp(32px, 6vw, 72px);
+  border-radius: 2px;
+  box-shadow: 0 18px 48px -16px rgba(0, 0, 0, 0.55),
+              0 2px 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+  max-width: min(92vw, 820px);
+  animation: soldBannerEnter 900ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@keyframes soldBannerEnter {
+  from { opacity: 0; transform: translate(-50%, -14px); }
+  to   { opacity: 1; transform: translate(-50%, 0); }
+}
+.sold-banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(14px, 2.4vw, 28px);
+}
+.sold-banner-rule {
+  flex: 0 0 auto;
+  width: clamp(28px, 6vw, 72px);
+  height: 1px;
+  background: rgba(246, 239, 224, 0.65);
+}
+.sold-banner-word {
+  font-family: var(--font-serif, Georgia, "Times New Roman", serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(2.4rem, 5.4vw, 4.4rem);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #f6efe0;
+  text-transform: uppercase;
+  /* small-cap style: large first letter, slightly smaller remainder */
+  font-feature-settings: "smcp" on, "c2sc" on;
+}
+.sold-banner-sub {
+  margin: 0.5rem 0 0;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  font-size: clamp(0.72rem, 1vw, 0.86rem);
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgba(246, 239, 224, 0.86);
+}
+@media (max-width: 640px) {
+  .sold-banner {
+    top: clamp(72px, 9vh, 110px);
+    padding: 12px 22px;
+  }
+  .sold-banner-rule { width: 24px; }
+}
